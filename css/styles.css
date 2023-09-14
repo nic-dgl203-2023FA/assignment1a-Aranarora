@@ -24,6 +24,10 @@ a {
     color: #FFE66D;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 
 /* Profile
 ----------------------------------*/
