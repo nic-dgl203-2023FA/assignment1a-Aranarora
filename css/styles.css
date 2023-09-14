@@ -42,7 +42,13 @@ header {
 ----------------------------------*/
 
 .projects {
-    background: #F7FFF7;
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+}
+
+.projects a {
+    color: #2F3061;
 }
 
 
