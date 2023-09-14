@@ -31,6 +31,10 @@ a:hover {
     text-decoration: none;
 }
 
+h2 {
+    margin: 0;
+}
+
 .content-wrap {
     width: 800px;
     margin: 0 auto;
