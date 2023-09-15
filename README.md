@@ -1,5 +1,6 @@
 # assignment1a-Aranarora
 assignment1a-Aranarora created by GitHub Classroom
+##[Github Repository](https://github.com/nic-dgl203-2023FA/assignment1a-Aranarora)
 
 - How much time did you spend on this assignment?
   - I spent almost 5 to 7 hours on this assignment.
