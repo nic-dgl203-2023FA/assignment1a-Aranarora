@@ -98,6 +98,15 @@ header {
     background: rgba(47, 48, 97, 80%);
 }
 
+.project-item {
+    overflow: hidden;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
 
 /* Work Experience
 ----------------------------------*/
