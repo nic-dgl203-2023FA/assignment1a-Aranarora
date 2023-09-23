@@ -137,12 +137,6 @@ header {
     background: #A1C6D7;
 }
 
-.job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-}
-
 
 /* Education
 ------------------------------------*/
@@ -188,5 +182,10 @@ footer {
     .project-item img {
         float: left;
         margin-right: 20px;
+    }
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
     }
 }
