@@ -82,6 +82,10 @@ h3 {
     padding: 25px 0;
 }
 
+.divider>section:last-of-type {
+    border-bottom: none;
+}
+
 
 /* Profile
 ----------------------------------*/
