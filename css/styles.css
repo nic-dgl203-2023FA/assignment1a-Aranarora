@@ -69,6 +69,10 @@ h3+p {
     font-style: italic;
 }
 
+h3~p {
+    margin: 0;
+}
+
 
 /* Profile
 ----------------------------------*/
