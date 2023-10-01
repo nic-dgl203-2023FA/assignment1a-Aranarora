@@ -99,6 +99,10 @@ header .content-wrap h2 {
     color: #FD3F35;
 }
 
+.profile-flex {
+    display: flex;
+}
+
 
 /* Project
 ----------------------------------*/
