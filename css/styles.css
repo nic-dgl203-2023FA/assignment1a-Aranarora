@@ -200,6 +200,9 @@ footer {
         display: flex;
         padding-top: 25px;
     }
+    .profile-flex img {
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width:749px) {
