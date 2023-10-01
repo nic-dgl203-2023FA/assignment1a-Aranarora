@@ -99,6 +99,14 @@ header .content-wrap h2 {
     color: #FD3F35;
 }
 
+.profile-flex .btn-1 {
+    color: #FCFCFC;
+    border: 2px solid #FD3F35;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
 
 /* Project
 ----------------------------------*/
