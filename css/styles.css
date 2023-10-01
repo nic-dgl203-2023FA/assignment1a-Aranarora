@@ -182,7 +182,8 @@ footer {
 ------------------------------------*/
 
 @media screen and (min-width:750px) {
-    header,
+    header h1,
+    header h2,
     footer {
         text-align: center;
     }
