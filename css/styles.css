@@ -107,6 +107,10 @@ header .content-wrap h2 {
     border-radius: 4px;
 }
 
+.profile-flex .btn-1:hover {
+    background: rgba(253, 63, 53, 90%);
+}
+
 
 /* Project
 ----------------------------------*/
