@@ -111,6 +111,10 @@ header .content-wrap h2 {
     background: rgba(253, 63, 53, 90%);
 }
 
+.profile-flex div {
+    margin: auto;
+}
+
 
 /* Project
 ----------------------------------*/
