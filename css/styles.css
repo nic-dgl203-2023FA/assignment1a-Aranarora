@@ -101,6 +101,7 @@ header .content-wrap h2 {
 
 .profile-flex {
     display: flex;
+    padding-top: 25px;
 }
 
 
