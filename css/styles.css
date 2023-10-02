@@ -22,7 +22,6 @@ html {
 
 nav {
     display: flex;
-    margin: 0px 18px 50px 18px;
     justify-content: flex-end;
     background-color: #101214;
 }
