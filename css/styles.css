@@ -20,6 +20,12 @@ html {
     box-sizing: inherit;
 }
 
+nav {
+    display: flex;
+    margin: 50px 18px;
+    justify-content: flex-end;
+}
+
 body {
     color: #343434;
     margin: 0%;
