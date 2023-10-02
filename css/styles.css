@@ -26,6 +26,11 @@ nav {
     justify-content: flex-end;
 }
 
+nav a {
+    padding: 10px 20px;
+    display: inline;
+}
+
 body {
     color: #343434;
     margin: 0%;
