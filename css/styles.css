@@ -95,12 +95,12 @@ html {
     transform: rotate(-405deg);
 }
 
-nav a {
+.menu a {
     padding: 10px 20px;
     display: inline;
 }
 
-nav a:hover {
+.menu a:hover {
     background-color: #FD3F35;
 }
 
