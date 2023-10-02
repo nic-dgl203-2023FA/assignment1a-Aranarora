@@ -95,12 +95,6 @@ html {
     transform: rotate(-405deg);
 }
 
-nav {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #101214;
-}
-
 nav a {
     padding: 10px 20px;
     display: inline;
