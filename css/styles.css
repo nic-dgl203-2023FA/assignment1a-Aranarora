@@ -45,7 +45,8 @@ img {
 }
 
 a {
-    color: #FFE66D;
+    color: #FCFCFC;
+    text-decoration: none;
 }
 
 a:hover {
