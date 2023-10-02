@@ -31,6 +31,10 @@ nav a {
     display: inline;
 }
 
+nav a:hover {
+    background-color: #FD3F35;
+}
+
 body {
     color: #343434;
     margin: 0%;
