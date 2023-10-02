@@ -40,11 +40,6 @@ html {
     padding: 0;
 }
 
-.menu>li {
-    margin: 0 1rem;
-    overflow: hidden;
-}
-
 .menu-button-container {
     display: none;
     height: 100%;
