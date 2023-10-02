@@ -22,7 +22,7 @@ html {
 
 nav {
     display: flex;
-    margin: 50px 18px;
+    margin: 0px 18px 50px 18px;
     justify-content: flex-end;
 }
 
