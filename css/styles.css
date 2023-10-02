@@ -59,6 +59,11 @@ html {
     display: none;
 }
 
+.menu>li {
+    padding: 5px;
+    overflow: hidden;
+}
+
 .menu-button,
 .menu-button::before,
 .menu-button::after {
