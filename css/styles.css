@@ -24,6 +24,9 @@ html {
 /* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
 .top-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     background-color: #101214;
