@@ -301,7 +301,7 @@ footer {
     }
     .contact-list {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     .direct-contact {
         display: flex;
