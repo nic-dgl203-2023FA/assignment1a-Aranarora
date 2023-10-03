@@ -2,7 +2,7 @@
 COLOR PALETTE
 https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #FCFCFC - off white
-##101214 - dark black
+#101214 - dark black
 #FD3F35 - vermilion color
 */
 
@@ -168,7 +168,7 @@ h3 {
 }
 
 .divider>section {
-    border-bottom: 1px dashed #343434;
+    border-bottom: 1px solid #101214;
     padding: 25px 0;
 }
 
