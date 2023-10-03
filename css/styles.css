@@ -306,6 +306,9 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    footer h4 {
+        margin-bottom: 0%;
+    }
     .profile-flex {
         display: flex;
         padding-top: 25px;
