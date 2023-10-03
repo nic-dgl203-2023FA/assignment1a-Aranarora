@@ -238,6 +238,7 @@ header img {
 }
 
 .projects .btn:hover {
+    color: #FCFCFC;
     background: rgba(253, 63, 53, 80%);
 }
 
