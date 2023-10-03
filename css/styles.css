@@ -348,13 +348,13 @@ footer a:active {
     margin: 10% auto;
     padding: 20px;
     border-radius: 3px;
-    background: #fff;
+    background: #FCFCFC;
 }
 
 .close {
     font-family: Arial, Helvetica, sans-serif;
-    background: #f26d7d;
-    color: #fff;
+    background: #FD3F35;
+    color: #FCFCFC;
     line-height: 25px;
     position: absolute;
     right: -12px;
@@ -367,14 +367,14 @@ footer a:active {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
+    -moz-box-shadow: 1px 1px 3px #101214;
+    -webkit-box-shadow: 1px 1px 3px #101214;
+    box-shadow: 1px 1px 3px #101214;
     padding-top: 5px;
 }
 
 .close:hover {
-    background: #fa3f6f;
+    background: #FD3F35;
 }
 
 
