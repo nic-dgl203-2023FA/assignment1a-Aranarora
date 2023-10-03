@@ -391,6 +391,17 @@ select {
     box-sizing: border-box;
 }
 
+input[type=submit] {
+    width: 100%;
+    background-color: #FD3F35;
+    color: FCFCFC;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 
 /* Responsive
 ------------------------------------*/
