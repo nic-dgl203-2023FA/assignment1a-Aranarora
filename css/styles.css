@@ -109,6 +109,10 @@ html {
     background-color: #FD3F35;
 }
 
+.menu a:hover {
+    background: rgba(253, 63, 53, 30%);
+}
+
 body {
     color: #101214;
     margin: 0%;
@@ -208,6 +212,10 @@ header img {
     background: rgba(253, 63, 53, 90%);
 }
 
+.profile-flex .btn-1:active {
+    background: rgba(253, 63, 53, 30%);
+}
+
 .profile-flex div {
     margin: auto;
 }
@@ -226,6 +234,10 @@ header img {
 
 .projects a:hover {
     color: rgba(253, 63, 53, 80%);
+}
+
+.projects a:active {
+    color: rgba(253, 63, 53, 30%);
 }
 
 .projects .btn {
@@ -290,6 +302,11 @@ footer a {
 footer a:hover {
     padding: 5px 0px;
     color: rgba(253, 63, 53, 80%);
+}
+
+footer a:active {
+    padding: 5px 0px;
+    color: rgba(253, 63, 53, 30%);
 }
 
 .contact-list ul {
