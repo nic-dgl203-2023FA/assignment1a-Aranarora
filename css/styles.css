@@ -353,6 +353,8 @@ footer {
     }
     .menu li a {
         display: block;
+        text-align: center;
+        padding: 15px;
     }
     .menu>li {
         display: flex;
