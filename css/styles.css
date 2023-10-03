@@ -276,7 +276,6 @@ footer {
 }
 
 .contact-list a {
-    padding: 15px;
     display: inline-block;
 }
 
@@ -327,9 +326,6 @@ footer {
     }
     header img {
         margin-top: 20px;
-    }
-    .contact-list a {
-        padding: 5px;
     }
     .menu-button-container {
         display: flex;
