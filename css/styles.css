@@ -270,11 +270,6 @@ footer {
     color: #FCFCFC;
 }
 
-.direct-contact {
-    display: flex;
-    flex-direction: column;
-}
-
 .contact-list ul {
     list-style-type: none;
     padding: 0;
@@ -307,6 +302,10 @@ footer {
     .contact-list {
         display: flex;
         justify-content: center;
+    }
+    .direct-contact {
+        display: flex;
+        flex-direction: column;
     }
     .profile-flex {
         display: flex;
