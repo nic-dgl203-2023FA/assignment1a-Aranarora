@@ -336,6 +336,10 @@ footer a:active {
     pointer-events: none;
 }
 
+.modalDialog h2 {
+    margin-bottom: 20px;
+}
+
 .modalDialog:target {
     opacity: 1;
     pointer-events: auto;
