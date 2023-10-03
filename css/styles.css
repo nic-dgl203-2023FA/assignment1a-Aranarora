@@ -402,6 +402,10 @@ input[type=submit] {
     cursor: pointer;
 }
 
+input[type=submit]:hover {
+    background-color: rgba(253, 63, 53, 80%);
+}
+
 
 /* Responsive
 ------------------------------------*/
