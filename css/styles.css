@@ -109,7 +109,7 @@ html {
     background-color: #FD3F35;
 }
 
-.menu a:hover {
+.menu a:active {
     background: rgba(253, 63, 53, 30%);
 }
 
