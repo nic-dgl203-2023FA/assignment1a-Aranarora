@@ -279,6 +279,12 @@ footer a {
     color: #FD3F35;
 }
 
+footer a:hover {
+    padding: 5px 0px;
+    color: rgba(253, 63, 53, 80%);
+    ;
+}
+
 .contact-list ul {
     list-style-type: none;
     padding: 0;
