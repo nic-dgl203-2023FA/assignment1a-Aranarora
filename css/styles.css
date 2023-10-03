@@ -395,4 +395,7 @@ footer a:hover {
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #FCFCFC;
     }
+    .education p {
+        font-size: medium;
+    }
 }
