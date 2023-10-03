@@ -320,6 +320,9 @@ footer {
     h2 {
         line-height: 1;
     }
+    header img {
+        margin-top: 20px;
+    }
     .contact-list a {
         padding: 5px;
     }
