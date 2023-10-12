@@ -25,10 +25,10 @@ html {
 
 .top-nav {
     position: fixed;
-    top: 0;
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    top: 0;
+    width: 100%;
     background-color: #101214;
     color: #FCFCFC;
     height: 70px;
@@ -37,9 +37,9 @@ html {
 
 .menu {
     display: flex;
-    justify-content: flex-end;
     flex-direction: row;
     list-style-type: none;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
     max-width: 750px;
