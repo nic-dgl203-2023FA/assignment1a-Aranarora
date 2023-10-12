@@ -101,15 +101,18 @@ html {
     transform: rotate(-405deg);
 }
 
+.top-nav a,
 .menu a {
     padding: 10px 20px;
     display: inline;
 }
 
+.top-nav a:hover,
 .menu a:hover {
     background-color: #FD3F35;
 }
 
+.top-nav a:active,
 .menu a:active {
     background: rgba(253, 63, 53, 30%);
 }
