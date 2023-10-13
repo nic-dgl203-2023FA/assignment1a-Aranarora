@@ -449,6 +449,12 @@ input[type=submit]:hover {
     .profile-flex img {
         margin-right: 20px;
     }
+    /* Motion page Styling */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 columns for large screens */
+    }
 }
 
 @media screen and (max-width:749px) {
