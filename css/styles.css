@@ -492,6 +492,9 @@ input[type=submit]:hover {
     }
 }
 
+
+/* Fourth cell */
+
 .grid-phrase {
     font-style: normal;
     animation: typing 2s steps(4), blinking 0.5s steps(1) infinite;
