@@ -445,6 +445,14 @@ input[type=submit]:hover {
 }
 
 
+/* Second cell */
+
+.grid-heading {
+    color: #FD3F35;
+    text-shadow: 1px 1px 0 rgba(253, 63, 53, 80%);
+}
+
+
 /* Responsive
 ------------------------------------*/
 
