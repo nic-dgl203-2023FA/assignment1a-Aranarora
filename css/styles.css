@@ -476,6 +476,15 @@ input[type=submit]:hover {
     animation-duration: 2s;
 }
 
+@keyframes move {
+    100% {
+        transform: translateX(40px);
+    }
+    0% {
+        transform: translateX(-40px);
+    }
+}
+
 
 /* Responsive
 ------------------------------------*/
