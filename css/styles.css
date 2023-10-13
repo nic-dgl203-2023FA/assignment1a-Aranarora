@@ -422,6 +422,15 @@ input[type=submit]:hover {
     padding: 70px;
 }
 
+.grid-button {
+    color: #FCFCFC;
+    background: #FD3F35;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
 
 /* Responsive
 ------------------------------------*/
