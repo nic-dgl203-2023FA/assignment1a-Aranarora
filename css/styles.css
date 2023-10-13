@@ -471,7 +471,7 @@ input[type=submit]:hover {
 
 /* Third cell  */
 
-.grid-image {
+.grid-image:hover {
     animation-name: move;
     animation-duration: 2s;
     animation-iteration-count: infinite;
