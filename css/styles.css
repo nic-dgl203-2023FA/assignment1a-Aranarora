@@ -415,6 +415,12 @@ input[type=submit]:hover {
     background-color: rgba(253, 63, 53, 80%);
 }
 
+.grid-container .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Responsive
 ------------------------------------*/
@@ -455,11 +461,6 @@ input[type=submit]:hover {
         grid-template-columns: repeat(3, 1fr);
         /* 3 columns for large screens */
         grid-gap: 20px;
-    }
-    .grid-container .grid-item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 }
 
