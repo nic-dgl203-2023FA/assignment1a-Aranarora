@@ -456,6 +456,11 @@ input[type=submit]:hover {
         /* 3 columns for large screens */
         grid-gap: 20px;
     }
+    .grid-container div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:749px) {
