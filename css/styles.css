@@ -415,6 +415,12 @@ input[type=submit]:hover {
     background-color: rgba(253, 63, 53, 80%);
 }
 
+
+/* Motion page */
+
+
+/* First cell */
+
 .grid-container .grid-item {
     display: flex;
     align-items: center;
