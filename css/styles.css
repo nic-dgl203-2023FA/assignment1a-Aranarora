@@ -493,7 +493,17 @@ input[type=submit]:hover {
 
 .grid-phrase {
     font-style: normal;
+    animation: typing 2s steps(11);
     letter-spacing: .15em;
+}
+
+@keyframes typing {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%
+    }
 }
 
 
