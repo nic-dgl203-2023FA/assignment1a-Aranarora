@@ -469,6 +469,13 @@ input[type=submit]:hover {
 }
 
 
+/* Third cell  */
+
+.grid-image {
+    animation-name: move;
+}
+
+
 /* Responsive
 ------------------------------------*/
 
