@@ -447,6 +447,18 @@ input[type=submit]:hover {
 
 /* Second cell */
 
+@keyframes scaleInOut {
+    0% {
+        transform: scale(1.5);
+    }
+    75% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .grid-heading {
     color: #FD3F35;
     text-shadow: 1px 1px 0 rgba(253, 63, 53, 80%);
