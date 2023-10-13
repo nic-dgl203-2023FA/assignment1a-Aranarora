@@ -493,8 +493,7 @@ input[type=submit]:hover {
 
 .grid-phrase {
     font-style: normal;
-    animation: typing 2s steps(11);
-    letter-spacing: .15em;
+    animation: typing 2s steps(4), blinking 0.5s steps(1) infinite;
 }
 
 @keyframes typing {
@@ -503,6 +502,16 @@ input[type=submit]:hover {
     }
     100% {
         width: 100%
+    }
+}
+
+@keyframes blinking {
+    0%,
+    100% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #FD3F35;
     }
 }
 
