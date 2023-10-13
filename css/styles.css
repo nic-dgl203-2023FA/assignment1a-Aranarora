@@ -477,13 +477,17 @@ input[type=submit]:hover {
     animation-iteration-count: infinite;
     animation-fill-mode: backwards;
     animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
 }
 
 @keyframes move {
-    100% {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
         transform: translateX(40px);
     }
-    0% {
+    100% {
         transform: translateX(-40px);
     }
 }
