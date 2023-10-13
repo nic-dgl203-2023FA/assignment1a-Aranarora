@@ -425,7 +425,6 @@ input[type=submit]:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 70px;
 }
 
 .grid-button {
@@ -490,6 +489,11 @@ input[type=submit]:hover {
     100% {
         transform: translateX(-40px);
     }
+}
+
+.grid-phrase {
+    font-style: normal;
+    letter-spacing: .15em;
 }
 
 
