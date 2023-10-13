@@ -477,7 +477,7 @@ input[type=submit]:hover {
     animation-iteration-count: infinite;
     animation-fill-mode: backwards;
     animation-direction: alternate;
-    animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+    animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
 }
 
 @keyframes move {
