@@ -496,6 +496,7 @@ input[type=submit]:hover {
     font-style: normal;
     animation: typing 2s steps(4), blinking 0.5s steps(1) infinite;
     overflow: hidden;
+    letter-spacing: .3em;
 }
 
 @keyframes typing {
