@@ -476,6 +476,7 @@ input[type=submit]:hover {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-fill-mode: backwards;
+    animation-direction: alternate;
 }
 
 @keyframes move {
