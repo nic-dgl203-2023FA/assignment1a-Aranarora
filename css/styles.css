@@ -473,6 +473,7 @@ input[type=submit]:hover {
 
 .grid-image {
     animation-name: move;
+    animation-duration: 2s;
 }
 
 
