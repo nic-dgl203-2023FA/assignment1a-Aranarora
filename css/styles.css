@@ -456,7 +456,7 @@ input[type=submit]:hover {
         /* 3 columns for large screens */
         grid-gap: 20px;
     }
-    .grid-container div {
+    .grid-container .grid-item {
         display: flex;
         align-items: center;
         justify-content: center;
