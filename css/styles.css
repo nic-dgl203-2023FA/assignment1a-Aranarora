@@ -365,6 +365,7 @@ footer a:active {
 }
 
 .contact-list ul {
+    margin-top: 0px;
     list-style-type: none;
     padding: 0;
 }
