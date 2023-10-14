@@ -678,7 +678,7 @@ input[type=submit]:hover {
 ------------------------------------*/
 
 @media screen and (min-width:750px) {
-    /* 3-1 Global styles  */
+    /* 3-1 Home page  */
     /* 3-2 Project */
     .project-item img {
         float: left;
