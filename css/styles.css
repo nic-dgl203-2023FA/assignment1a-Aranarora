@@ -570,6 +570,39 @@ input[type=submit]:hover {
 }
 
 
+/* 6th cell */
+
+
+/* The shape taken from: https://css-tricks.com/the-shapes-of-css/ */
+
+.grid-pointburts {
+    background: #FD3F35;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+}
+
+.grid-pointburts:before,
+.grid-pointburts:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: #FD3F35;
+}
+
+.grid-pointburts:before {
+    transform: rotate(30deg);
+}
+
+.grid-pointburts:after {
+    transform: rotate(60deg);
+}
+
+
 /* Responsive
 ------------------------------------*/
 
