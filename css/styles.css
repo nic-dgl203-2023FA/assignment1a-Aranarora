@@ -543,7 +543,7 @@ input[type=submit]:hover {
 
 .grid-3d span {
     display: inline-block;
-    animation: flip 2s cubic-bezier(0.85, 1.2, 0.90, 1.8);
+    animation: flip 2s cubic-bezier(0.85, 1.2, 0.90, 1.8) both;
 }
 
 
