@@ -581,7 +581,7 @@ input[type=submit]:hover {
     height: 80px;
     position: relative;
     text-align: center;
-    animation: rotation;
+    animation: rotation 3s infinite;
 }
 
 
