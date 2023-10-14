@@ -541,6 +541,12 @@ input[type=submit]:hover {
     }
 }
 
+@keyframes flipdown {
+    to {
+        transform: rotateX(-180deg);
+    }
+}
+
 .grid-3d span {
     display: inline-block;
     animation: flipup 1s cubic-bezier(0.85, 1.2, 0.90, 1.8) both;
