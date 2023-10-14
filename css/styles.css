@@ -7,7 +7,41 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 */
 
 
-/* Global styles
+/* Menu for CSS
+1-  Home page
+1-1 Global styles 
+1-2 Profile
+1-3 Project
+1-4 Work Experience
+1-5 Education
+1-6 Contact Info
+
+2-0 Motion page 
+2-1 First cell
+2-2 Second cell
+2-3 Third cell
+2-4 Fourth cell
+2-5 Fifth cell
+2-6 Sixth cell
+
+3-0 Responsive @media screen and (min-width:750px)
+3-1 Global styles 
+3-2 Project
+3-2 Work Experience
+3-3 Contact Info 
+3-4 profile
+3-5 Motion page Styling
+
+4-0 max-width:749px
+4-1 Global styles
+4-2 Education
+*/
+
+
+/* 1-0 Home page */
+
+
+/* 1-1 Global styles
 ----------------------------------*/
 
 html {
@@ -188,7 +222,7 @@ h4 {
 }
 
 
-/* Profile
+/* 1-2 Profile
 ----------------------------------*/
 
 header {
@@ -226,7 +260,7 @@ header img {
 }
 
 
-/* Project
+/* 1-3 Project
 ----------------------------------*/
 
 .projects {
@@ -267,7 +301,7 @@ header img {
 }
 
 
-/* Work Experience
+/* 1-4 Work Experience
 ----------------------------------*/
 
 .work-experience {
@@ -275,7 +309,7 @@ header img {
 }
 
 
-/* Education
+/* 1-5 Education
 ------------------------------------*/
 
 .education {
@@ -291,7 +325,7 @@ header img {
 }
 
 
-/* Contact Info
+/* 1-6 Contact Info
 ----------------------------------*/
 
 footer {
@@ -416,10 +450,7 @@ input[type=submit]:hover {
 }
 
 
-/* Motion page */
-
-
-/* First cell */
+/* 2-0 Motion page */
 
 .grid-container .grid-item {
     display: flex;
@@ -428,6 +459,9 @@ input[type=submit]:hover {
     height: 200px;
     width: calc(100%-66%);
 }
+
+
+/* 2-1 First cell */
 
 .grid-button {
     font-family: 'Roboto', sans-serif;
@@ -448,7 +482,7 @@ input[type=submit]:hover {
 }
 
 
-/* Second cell */
+/* 2-2 Second cell */
 
 @keyframes scaleInOut {
     0% {
@@ -472,7 +506,7 @@ input[type=submit]:hover {
 }
 
 
-/* Third cell  */
+/* 2-3 Third cell  */
 
 .grid-image:hover {
     animation-name: move;
@@ -496,7 +530,7 @@ input[type=submit]:hover {
 }
 
 
-/* Fourth cell */
+/* 2-4 Fourth cell */
 
 .grid-phrase {
     font-style: normal;
@@ -526,7 +560,7 @@ input[type=submit]:hover {
 }
 
 
-/* Fifth cell */
+/* 2-5 Fifth cell */
 
 .grid-3d {
     margin: 0;
@@ -572,7 +606,7 @@ input[type=submit]:hover {
 }
 
 
-/* 6th cell */
+/* 2-6 Sixth cell */
 
 
 /* The shape taken from: https://css-tricks.com/the-shapes-of-css/ */
@@ -618,24 +652,28 @@ input[type=submit]:hover {
 }
 
 
-/* Responsive
+/* 3-0 Responsive min-width:750px
 ------------------------------------*/
 
 @media screen and (min-width:750px) {
+    /* 3-1 Global styles  */
     header h1,
     header h2,
     footer h2 {
         text-align: center;
     }
+    /* 3-2 Project */
     .project-item img {
         float: left;
         margin-right: 20px;
     }
+    /* 3-2 Work Experience */
     .job-item {
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 20px;
     }
+    /* 3-3 Contact Info */
     .contact-list {
         display: flex;
         justify-content: space-between;
@@ -644,6 +682,7 @@ input[type=submit]:hover {
         display: flex;
         flex-direction: column;
     }
+    /* 3-4 profile */
     .profile-flex {
         display: flex;
         padding-top: 25px;
@@ -651,7 +690,7 @@ input[type=submit]:hover {
     .profile-flex img {
         margin-right: 20px;
     }
-    /* Motion page Styling */
+    /* 3-5 Motion page Styling */
     .grid-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -660,7 +699,11 @@ input[type=submit]:hover {
     }
 }
 
+
+/* 4-0 max-width:749px */
+
 @media screen and (max-width:749px) {
+    /* 4-1 Global styles  */
     h1 {
         font-size: 75px;
         line-height: 0.9;
@@ -717,6 +760,7 @@ input[type=submit]:hover {
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #FCFCFC;
     }
+    /* 4-2 Education */
     .education p {
         font-size: medium;
     }
