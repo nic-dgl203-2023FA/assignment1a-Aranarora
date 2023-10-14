@@ -349,6 +349,11 @@ footer a {
     color: #FD3F35;
 }
 
+footer p {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+}
+
 footer a:hover {
     padding: 5px 0px;
     color: rgba(253, 63, 53, 80%);
