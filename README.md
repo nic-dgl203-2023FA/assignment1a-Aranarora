@@ -1,5 +1,7 @@
 # assignment1a-Aranarora
+
 assignment1a-Aranarora created by GitHub Classroom
+
 ## [Github Repository](https://github.com/nic-dgl203-2023FA/assignment1a-Aranarora)
 
 - How much time did you spend on this assignment?
@@ -8,5 +10,18 @@ assignment1a-Aranarora created by GitHub Classroom
   - The overall assignment was moderate, but following every step back and forth was tricky.
     - Following all the steps from the video was an easy step.
     - The most challenging part was to make the valuable GitHub commits.
-- Are there any specific topics that you still find confusing? 
+- Are there any specific topics that you still find confusing?
   - Everything is clear about this assignment, and I feel confident about my work submission.
+
+## Motion page
+
+- Repository link: https://github.com/nic-dgl203-2023FA/assignment1a-Aranarora/tree/portfolio
+
+- cPanel URL link: http://dgl203.aarora.imgd.ca/motion/index.html
+
+- How much time did you spend on this assignment?
+  - I spent almost 7-8 hours completing this assignment and fixed the validation errors.&nbsp;
+- Was it easy, moderate, difficult?
+  - This one is also moderate, not that hard but not that easy,
+- Are there any specific topics that you still find confusing?
+  - Everything looks clear, and I want to learn more about the use of minimalistic animation to increase user experience.
