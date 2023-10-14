@@ -532,7 +532,7 @@ input[type=submit]:hover {
     transform-style: preserve-3d;
 }
 
-@keyframes flip {
+@keyframes flipup {
     from {
         transform: rotateX(0deg);
     }
