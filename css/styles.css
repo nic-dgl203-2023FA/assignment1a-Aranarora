@@ -224,6 +224,12 @@ h3 {
     border-bottom: none;
 }
 
+header h1,
+header h2,
+footer h2 {
+    text-align: center;
+}
+
 
 /* 1-2 Profile
 ----------------------------------*/
@@ -673,11 +679,6 @@ input[type=submit]:hover {
 
 @media screen and (min-width:750px) {
     /* 3-1 Global styles  */
-    header h1,
-    header h2,
-    footer h2 {
-        text-align: center;
-    }
     /* 3-2 Project */
     .project-item img {
         float: left;
