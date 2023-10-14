@@ -38,6 +38,14 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 */
 
 
+/* Help taken from external sources 
+5-1 Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG
+5-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb 
+5-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form
+5-4 The shape taken from: https://css-tricks.com/the-shapes-of-css/
+*/
+
+
 /* 1-0 Home page */
 
 
@@ -55,7 +63,7 @@ html {
 }
 
 
-/* Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
+/* 5-1 Add css from codepen https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
 .top-nav {
     position: fixed;
@@ -358,7 +366,7 @@ footer a:active {
 }
 
 
-/* Add modal css from https://codepen.io/Lightislands/pen/XdYYgb */
+/* 5-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb */
 
 .modalDialog {
     position: fixed;
@@ -421,7 +429,7 @@ footer a:active {
 }
 
 
-/* help taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form */
+/* 5-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form */
 
 input[type=text],
 select {
@@ -609,7 +617,7 @@ input[type=submit]:hover {
 /* 2-6 Sixth cell */
 
 
-/* The shape taken from: https://css-tricks.com/the-shapes-of-css/ */
+/* 5-4 The shape taken from: https://css-tricks.com/the-shapes-of-css/ */
 
 .grid-pointburts {
     background: #FD3F35;
