@@ -425,7 +425,8 @@ input[type=submit]:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 70px;
+    height: 200px;
+    width: calc(100%-66%);
 }
 
 .grid-button {
