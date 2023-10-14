@@ -541,6 +541,10 @@ input[type=submit]:hover {
     }
 }
 
+.grid-3d span {
+    display: inline-block;
+}
+
 
 /* Responsive
 ------------------------------------*/
