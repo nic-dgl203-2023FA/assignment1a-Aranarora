@@ -534,16 +534,16 @@ input[type=submit]:hover {
 
 @keyframes flipup {
     from {
-        transform: rotateX(0deg);
+        transform: rotateX(90deg);
     }
     to {
-        transform: rotateX(360deg);
+        transform: rotateX(0deg);
     }
 }
 
 .grid-3d span {
     display: inline-block;
-    animation: flip 2s cubic-bezier(0.85, 1.2, 0.90, 1.8) both;
+    animation: flipup 1s cubic-bezier(0.85, 1.2, 0.90, 1.8) both;
 }
 
 .grid-3d span:nth-child(2) {
