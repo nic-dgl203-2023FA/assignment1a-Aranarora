@@ -581,7 +581,7 @@ input[type=submit]:hover {
     height: 80px;
     position: relative;
     text-align: center;
-    animation: rotation 3s infinite;
+    animation: rotation 3s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 
