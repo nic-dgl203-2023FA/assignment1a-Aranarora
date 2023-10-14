@@ -430,6 +430,8 @@ input[type=submit]:hover {
 }
 
 .grid-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     color: #FCFCFC;
     background: #FD3F35;
     text-decoration: none;
