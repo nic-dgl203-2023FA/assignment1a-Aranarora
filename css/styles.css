@@ -543,7 +543,7 @@ input[type=submit]:hover {
 
 @keyframes flipdown {
     to {
-        transform: rotateX(-180deg);
+        transform: rotateX(-360deg);
     }
 }
 
