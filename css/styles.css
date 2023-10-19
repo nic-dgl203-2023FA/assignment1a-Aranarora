@@ -76,6 +76,7 @@ html {
     color: #FCFCFC;
     height: 70px;
     padding: 1em 2em 1em 2em;
+    z-index: 1;
 }
 
 .menu {
