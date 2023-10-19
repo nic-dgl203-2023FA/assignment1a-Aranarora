@@ -755,6 +755,7 @@ input[type=submit]:hover {
     }
     #menu-toggle:checked~.menu {
         padding-bottom: 100vh;
+        background-color: #101214;
     }
     #menu-toggle:checked~.menu li {
         border: 1px solid #FCFCFC;
