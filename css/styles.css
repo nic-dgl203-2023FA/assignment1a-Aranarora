@@ -714,6 +714,12 @@ input[type=submit]:hover {
     animation: cube-2 5s 0s infinite;
 }
 
+#Top-cube {
+    --red: rgba(253, 63, 53, 80%);
+    offset-path: path('M 0.50,0 A 150,10 0 1,1 0,40 ');
+    animation: cube-2 5s 2s infinite;
+}
+
 
 /* 3-0 Responsive min-width:750px
 ------------------------------------*/
