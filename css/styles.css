@@ -684,7 +684,7 @@ input[type=submit]:hover {
     --morefade: rgba(253, 63, 53, 30%);
 }
 
-@keyframes cube {
+@keyframes cube-1 {
     from {
         offset-distance: 0%;
     }
@@ -692,6 +692,21 @@ input[type=submit]:hover {
         offset-distance: 100%;
         fill: var(--red)
     }
+}
+
+@keyframes cube-2 {
+    from {
+        offset-distance: 100%;
+    }
+    to {
+        offset-distance: 0%;
+        fill: var(--red);
+    }
+}
+
+#Right-cube {
+    offset-path: path('M 10,100 A 50,10 0 1,1 0,0');
+    animation: cube 5s 2s infinite;
 }
 
 
