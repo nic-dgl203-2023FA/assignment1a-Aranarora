@@ -699,7 +699,6 @@ input[type=submit]:hover {
     }
     to {
         offset-distance: 100%;
-        fill: var(--red)
     }
 }
 
@@ -709,7 +708,6 @@ input[type=submit]:hover {
     }
     to {
         offset-distance: 0%;
-        fill: var(--red);
     }
 }
 
