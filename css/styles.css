@@ -684,6 +684,15 @@ input[type=submit]:hover {
     --morefade: rgba(253, 63, 53, 30%);
 }
 
+@keyframes fill {
+    from {
+        fill: white;
+    }
+    to {
+        fill: var(--red);
+    }
+}
+
 @keyframes cube-1 {
     from {
         offset-distance: 0%;
