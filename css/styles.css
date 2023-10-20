@@ -706,12 +706,12 @@ input[type=submit]:hover {
 
 #Right-cube {
     offset-path: path('M 10,100 A 50,10 0 1,1 0,0');
-    animation: cube 5s 2s infinite;
+    animation: cube-1 5s 0s infinite;
 }
 
 #Left-cube {
     offset-path: path('M 0,10 A 50,10 0 1,1 0,100');
-    animation: cube-2 5s 2s infinite;
+    animation: cube-2 5s 0s infinite;
 }
 
 
