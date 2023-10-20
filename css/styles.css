@@ -684,6 +684,16 @@ input[type=submit]:hover {
     --morefade: rgba(253, 63, 53, 30%);
 }
 
+@keyframes cube {
+    from {
+        offset-distance: 0%;
+    }
+    to {
+        offset-distance: 100%;
+        fill: var(--red)
+    }
+}
+
 
 /* 3-0 Responsive min-width:750px
 ------------------------------------*/
