@@ -676,6 +676,15 @@ input[type=submit]:hover {
 }
 
 
+/* Animation */
+
+:root {
+    --red: #FD3F35;
+    --fade: rgba(253, 63, 53, 80%);
+    --morefade: rgba(253, 63, 53, 30%);
+}
+
+
 /* 3-0 Responsive min-width:750px
 ------------------------------------*/
 
