@@ -711,6 +711,20 @@ input[type="submit"]:hover {
     }
 }
 
+@keyframes bouncefadein {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 #Right-cube {
     --red: rgba(253, 63, 53, 80%);
     offset-path: path("M 10,100 A 50,10 0 1,1 0,0");
