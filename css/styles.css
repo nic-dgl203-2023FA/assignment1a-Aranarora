@@ -73,7 +73,7 @@ html {
     top: 0;
     width: 100%;
     background-color: #101214;
-    color: #FCFCFC;
+    color: #fcfcfc;
     height: 70px;
     padding: 1em 2em 1em 2em;
     z-index: 1;
@@ -113,7 +113,7 @@ html {
 .menu-button::before,
 .menu-button::after {
     display: block;
-    background-color: #FCFCFC;
+    background-color: #fcfcfc;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -122,12 +122,12 @@ html {
 }
 
 .menu-button::before {
-    content: '';
+    content: "";
     margin-top: -8px;
 }
 
 .menu-button::after {
-    content: '';
+    content: "";
     margin-top: 8px;
 }
 
@@ -154,7 +154,7 @@ html {
 
 .top-nav a:hover,
 .menu a:hover {
-    background-color: #FD3F35;
+    background-color: #fd3f35;
 }
 
 .top-nav a:active,
@@ -166,13 +166,13 @@ body {
     color: #101214;
     margin: 0%;
     padding: 0%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
 a {
-    color: #FCFCFC;
+    color: #fcfcfc;
     text-decoration: none;
 }
 
@@ -191,7 +191,7 @@ h2 {
 
 h1,
 h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-style: italic;
     font-weight: 400;
     margin: 0;
@@ -205,7 +205,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     margin-bottom: 0;
 }
 
@@ -238,11 +238,11 @@ footer {
 
 header {
     background: #101214;
-    color: #FCFCFC;
+    color: #fcfcfc;
 }
 
 header .content-wrap h2 {
-    color: #FD3F35;
+    color: #fd3f35;
 }
 
 header img {
@@ -251,8 +251,8 @@ header img {
 }
 
 .profile-flex .btn-1 {
-    color: #FCFCFC;
-    border: 2px solid #FD3F35;
+    color: #fcfcfc;
+    border: 2px solid #fd3f35;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -279,11 +279,11 @@ header img {
 ----------------------------------*/
 
 .projects {
-    background: #FCFCFC;
+    background: #fcfcfc;
 }
 
 .projects a {
-    color: #FD3F35;
+    color: #fd3f35;
 }
 
 .projects a:hover {
@@ -299,15 +299,15 @@ header img {
 }
 
 .projects .btn {
-    color: #FCFCFC;
-    background: #FD3F35;
+    color: #fcfcfc;
+    background: #fd3f35;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
 }
 
 .projects .btn:hover {
-    color: #FCFCFC;
+    color: #fcfcfc;
     background: rgba(253, 63, 53, 80%);
 }
 
@@ -332,7 +332,7 @@ header img {
 ------------------------------------*/
 
 .education {
-    color: #FCFCFC;
+    color: #fcfcfc;
     background-image: url(../placeholder-images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
     background-size: cover;
     background-position: top right;
@@ -349,16 +349,16 @@ header img {
 
 footer {
     background: #101214;
-    color: #FCFCFC;
+    color: #fcfcfc;
 }
 
 footer a {
     padding: 5px 0px;
-    color: #FD3F35;
+    color: #fd3f35;
 }
 
 footer p {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     margin-bottom: 0;
 }
 
@@ -421,8 +421,8 @@ footer a:active {
 
 .close {
     font-family: Arial, Helvetica, sans-serif;
-    background: #FD3F35;
-    color: #FCFCFC;
+    background: #fd3f35;
+    color: #fcfcfc;
     line-height: 25px;
     position: absolute;
     right: -12px;
@@ -442,27 +442,27 @@ footer a:active {
 }
 
 .close:hover {
-    background: #FD3F35;
+    background: #fd3f35;
 }
 
 
 /* 5-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form */
 
-input[type=text],
+input[type="text"],
 select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: block;
-    border: 1px solid #FCFCFC;
+    border: 1px solid #fcfcfc;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type="submit"] {
     width: 100%;
-    background-color: #FD3F35;
-    color: #FCFCFC;
+    background-color: #fd3f35;
+    color: #fcfcfc;
     padding: 14px 20px;
     margin: 28px 0;
     border: none;
@@ -470,7 +470,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
     background-color: rgba(253, 63, 53, 80%);
 }
 
@@ -488,15 +488,15 @@ input[type=submit]:hover {
 /* 2-1 First cell */
 
 .grid-button {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    color: #FCFCFC;
-    background: #FD3F35;
+    color: #fcfcfc;
+    background: #fd3f35;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
     border: none;
-    transition: transform .5s .1s ease-in-out, background .4s .2s ease-out, border-radius .3s .3s ease-in;
+    transition: transform 0.5s 0.1s ease-in-out, background 0.4s 0.2s ease-out, border-radius 0.3s 0.3s ease-in;
 }
 
 .grid-button:hover {
@@ -521,7 +521,7 @@ input[type=submit]:hover {
 }
 
 .grid-heading {
-    color: #FD3F35;
+    color: #fd3f35;
     text-shadow: 1px 1px 0 rgba(253, 63, 53, 80%);
     animation-name: scaleInOut;
     animation-duration: 3s;
@@ -560,8 +560,8 @@ input[type=submit]:hover {
     font-style: normal;
     animation: typing 2s steps(4), blinking 0.5s steps(1) infinite;
     overflow: hidden;
-    border-right: .1em solid #CE2D4F;
-    letter-spacing: .3em;
+    border-right: 0.1em solid #ce2d4f;
+    letter-spacing: 0.3em;
 }
 
 @keyframes typing {
@@ -569,7 +569,7 @@ input[type=submit]:hover {
         width: 0px;
     }
     100% {
-        width: 70%
+        width: 70%;
     }
 }
 
@@ -579,7 +579,7 @@ input[type=submit]:hover {
         border-color: transparent;
     }
     50% {
-        border-color: #FD3F35;
+        border-color: #fd3f35;
     }
 }
 
@@ -609,7 +609,7 @@ input[type=submit]:hover {
 
 .grid-3d span {
     display: inline-block;
-    animation: flipup 1s cubic-bezier(0.85, 1.2, 0.90, 1.8) both, flipdown 2s cubic-bezier(0.85, 1.2, 0.90, 1.8) 2s forwards;
+    animation: flipup 1s cubic-bezier(0.85, 1.2, 0.9, 1.8) both, flipdown 2s cubic-bezier(0.85, 1.2, 0.9, 1.8) 2s forwards;
     transform-origin: 50% 100%;
 }
 
@@ -636,7 +636,7 @@ input[type=submit]:hover {
 /* 5-4 The shape taken from: https://css-tricks.com/the-shapes-of-css/ */
 
 .grid-pointburts {
-    background: #FD3F35;
+    background: #fd3f35;
     width: 80px;
     height: 80px;
     position: relative;
@@ -664,7 +664,7 @@ input[type=submit]:hover {
     left: 0;
     height: 80px;
     width: 80px;
-    background: #FD3F35;
+    background: #fd3f35;
 }
 
 .grid-pointburts:before {
@@ -679,7 +679,7 @@ input[type=submit]:hover {
 /* Animation */
 
 :root {
-    --red: #FD3F35;
+    --red: #fd3f35;
     --fade: rgba(253, 63, 53, 80%);
     --morefade: rgba(253, 63, 53, 30%);
 }
@@ -712,18 +712,18 @@ input[type=submit]:hover {
 }
 
 #Right-cube {
-    offset-path: path('M 10,100 A 50,10 0 1,1 0,0');
+    offset-path: path("M 10,100 A 50,10 0 1,1 0,0");
     animation: cube-1 5s 0s infinite, fill 1s both;
 }
 
 #Left-cube {
-    offset-path: path('M 0,10 A 50,10 0 1,1 0,100');
+    offset-path: path("M 0,10 A 50,10 0 1,1 0,100");
     animation: cube-2 5s 0s infinite, fill 1s both;
 }
 
 #Top-cube {
     --red: rgba(253, 63, 53, 80%);
-    offset-path: path('M 0.50,0 A 150,10 0 1,1 0,40 ');
+    offset-path: path("M 0.50,0 A 150,10 0 1,1 0,40 ");
     animation: cube-2 5s 0s infinite, fill 1s both;
 }
 
@@ -731,7 +731,7 @@ input[type=submit]:hover {
 /* 3-0 Responsive min-width:750px
 ------------------------------------*/
 
-@media screen and (min-width:750px) {
+@media screen and (min-width: 750px) {
     /* 3-1 Home page  */
     /* 3-2 Project */
     .project-item img {
@@ -773,7 +773,7 @@ input[type=submit]:hover {
 
 /* 4-0 max-width:749px */
 
-@media screen and (max-width:749px) {
+@media screen and (max-width: 749px) {
     /* 4-1 Global styles  */
     h1 {
         font-size: 75px;
@@ -811,7 +811,7 @@ input[type=submit]:hover {
         background-color: #101214;
     }
     #menu-toggle:checked~.menu li {
-        border: 1px solid #FCFCFC;
+        border: 1px solid #fcfcfc;
         height: 100%;
         width: 100%;
         display: block;
@@ -829,11 +829,11 @@ input[type=submit]:hover {
         margin: 0;
         padding: 0.5em 0;
         width: 100%;
-        color: #FCFCFC;
+        color: #fcfcfc;
         background-color: #101214;
     }
     .menu>li:not(:last-child) {
-        border-bottom: 1px solid #FCFCFC;
+        border-bottom: 1px solid #fcfcfc;
     }
     /* 4-2 Education */
     .education p {
