@@ -779,13 +779,13 @@ input[type="submit"]:hover {
     }
     40%,
     60% {
-        transform: rotate(-20deg) scale(var(--scale));
+        transform: rotate(var(--minusdeg)) scale(var(--scale));
     }
     50% {
-        transform: rotate(20deg) scale(var(--scale));
+        transform: rotate(var(--adddeg)) scale(var(--scale));
     }
     70% {
-        transform: rotate(0deg) scale(var(--scale));
+        transform: rotate(var(--deg)) scale(var(--scale));
     }
     100% {
         transform: scale(var(--original));
