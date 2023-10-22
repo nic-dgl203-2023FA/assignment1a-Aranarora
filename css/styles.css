@@ -688,6 +688,9 @@ input[type="submit"]:hover {
     --original: 1;
     --duration: 5s;
     --weight: 700;
+    --minusdeg: -20deg;
+    --adddeg: 20deg;
+    --deg: 0;
 }
 
 @keyframes fill {
