@@ -760,10 +760,11 @@ input[type="submit"]:hover {
 }
 
 .animation-text {
+    font-style: normal;
     text-align: center;
 }
 
-@keyframes wigle {
+@keyframes wiggle {
     30% {
         transform: scale(1.2);
     }
