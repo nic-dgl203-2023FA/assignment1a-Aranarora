@@ -687,6 +687,7 @@ input[type="submit"]:hover {
     --tofrom: 0%;
     --original: 1;
     --duration: 5s;
+    --weight: 700;
 }
 
 @keyframes fill {
@@ -762,11 +763,11 @@ input[type="submit"]:hover {
 }
 
 .animation-text {
+    color: var(--red);
     font-style: normal;
     text-align: center;
     animation: wiggle var(--duration) infinite linear;
     --scale: 1.2;
-    --weight: 700;
 }
 
 @keyframes wiggle {
