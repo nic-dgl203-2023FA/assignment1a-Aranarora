@@ -755,7 +755,7 @@ input[type="submit"]:hover {
 }
 
 #Top-cube {
-    --scale: 0.5;
+    --scale: 0.6;
     --red: rgba(253, 63, 53, 80%);
     offset-path: path("M 0.50,0 A 150,10 0 1,1 0,40 ");
     animation: cube-2 5s 0s infinite, fill 1s both;
