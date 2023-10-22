@@ -759,6 +759,10 @@ input[type="submit"]:hover {
     animation: cube-1 5s 0s infinite, fill 1s both;
 }
 
+.animation-text {
+    text-align: center;
+}
+
 
 /* 3-0 Responsive min-width:750px
 ------------------------------------*/
