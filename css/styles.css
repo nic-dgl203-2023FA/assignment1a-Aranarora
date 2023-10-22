@@ -794,6 +794,7 @@ input[type="submit"]:hover {
 /* 6-7 heading text animation */
 
 .animation-text {
+    font-size: 100px;
     color: var(--red);
     font-style: normal;
     text-align: center;
