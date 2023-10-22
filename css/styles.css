@@ -685,6 +685,7 @@ input[type="submit"]:hover {
     --scale: 0.1;
     --fromto: 0%;
     --tofrom: 0%;
+    --original: 1;
 }
 
 @keyframes fill {
@@ -782,7 +783,7 @@ input[type="submit"]:hover {
         transform: rotate(0deg) scale(var(--scale));
     }
     100% {
-        transform: scale(1);
+        transform: scale(var(--original));
         font-style: italic;
         font-weight: var(--weight);
     }
