@@ -762,6 +762,7 @@ input[type="submit"]:hover {
 .animation-text {
     font-style: normal;
     text-align: center;
+    animation: wiggle 5s infinite linear;
 }
 
 @keyframes wiggle {
