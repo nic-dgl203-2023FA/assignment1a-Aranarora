@@ -35,6 +35,15 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 4-0 max-width:749px
 4-1 Global styles
 4-2 Education
+
+6-1 Animation 
+ 6-2 Variables
+ 6-3 fill animation
+ 6-4 cube-1 animation
+ 6-5 A-symbol items animation properties
+ 6-6 cube item animation properties
+ 6-7 heading text animation
+ 6-8 wiggle animation
 */
 
 
@@ -676,7 +685,10 @@ input[type="submit"]:hover {
 }
 
 
-/* Animation */
+/* 6-1 Animation */
+
+
+/* 6-2 Variables */
 
 :root {
     --red: #fd3f35;
@@ -693,6 +705,9 @@ input[type="submit"]:hover {
     --deg: 0;
 }
 
+
+/* 6-3 fill animation */
+
 @keyframes fill {
     from {
         fill: white;
@@ -701,6 +716,9 @@ input[type="submit"]:hover {
         fill: var(--red);
     }
 }
+
+
+/* 6-4 cube-1 animation */
 
 @keyframes cube-1 {
     from {
@@ -711,6 +729,9 @@ input[type="submit"]:hover {
         offset-distance: var(--tofrom);
     }
 }
+
+
+/* 6-5 A-symbol items animation properties */
 
 #A-left {
     animation: bouncefadein var(--duration) 0.2s infinite, fill 1s both;
@@ -723,6 +744,9 @@ input[type="submit"]:hover {
 #A-middle {
     animation: bouncefadein var(--duration) 0.6s infinite, fill 1s both;
 }
+
+
+/* 6-5 bouncefadein animation */
 
 @keyframes bouncefadein {
     0% {
@@ -737,6 +761,9 @@ input[type="submit"]:hover {
         transform: translateY(0px);
     }
 }
+
+
+/* 6-6 cube item animation properties */
 
 #Right-cube {
     --fromto: 0%;
@@ -765,6 +792,9 @@ input[type="submit"]:hover {
     animation: cube-1 var(--duration) 0s infinite, fill 1s both;
 }
 
+
+/* 6-7 heading text animation */
+
 .animation-text {
     color: var(--red);
     font-style: normal;
@@ -772,6 +802,9 @@ input[type="submit"]:hover {
     animation: wiggle var(--duration) infinite linear;
     --scale: 1.2;
 }
+
+
+/* 6-8 wiggle animation */
 
 @keyframes wiggle {
     30% {
