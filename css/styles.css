@@ -698,21 +698,11 @@ input[type="submit"]:hover {
 
 @keyframes cube-1 {
     from {
-        offset-distance: 0%;
+        offset-distance: var(--fromto);
         transform: scale(var(--scale));
     }
     to {
-        offset-distance: 100%;
-    }
-}
-
-@keyframes cube-2 {
-    from {
-        offset-distance: 100%;
-        transform: scale(var(--scale));
-    }
-    to {
-        offset-distance: 0%;
+        offset-distance: var(--tofrom);
     }
 }
 
@@ -757,7 +747,7 @@ input[type="submit"]:hover {
     --scale: 0.1;
     --red: rgba(253, 63, 53, 80%);
     offset-path: path("M 0,10 A 50,10 0 1,1 0,100");
-    animation: cube-2 5s 0s infinite, fill 1s both;
+    animation: cube-1 5s 0s infinite, fill 1s both;
 }
 
 #Top-cube {
@@ -766,7 +756,7 @@ input[type="submit"]:hover {
     --scale: 0.6;
     --red: rgba(253, 63, 53, 80%);
     offset-path: path("M 0.50,0 A 150,10 0 1,1 0,40 ");
-    animation: cube-2 5s 0s infinite, fill 1s both;
+    animation: cube-1 5s 0s infinite, fill 1s both;
 }
 
 
