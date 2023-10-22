@@ -741,18 +741,21 @@ input[type="submit"]:hover {
 }
 
 #Right-cube {
+    --scale: 0.8;
     --red: rgba(253, 63, 53, 80%);
     offset-path: path("M 10,100 A 50,10 0 1,1 0,0");
     animation: cube-1 5s 0s infinite, fill 1s both;
 }
 
 #Left-cube {
+    --scale: 0.1;
     --red: rgba(253, 63, 53, 80%);
     offset-path: path("M 0,10 A 50,10 0 1,1 0,100");
     animation: cube-2 5s 0s infinite, fill 1s both;
 }
 
 #Top-cube {
+    --scale: 0.5;
     --red: rgba(253, 63, 53, 80%);
     offset-path: path("M 0.50,0 A 150,10 0 1,1 0,40 ");
     animation: cube-2 5s 0s infinite, fill 1s both;
