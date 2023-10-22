@@ -682,6 +682,7 @@ input[type="submit"]:hover {
     --red: #fd3f35;
     --fade: rgba(253, 63, 53, 80%);
     --morefade: rgba(253, 63, 53, 30%);
+    --scale: 0.1;
 }
 
 @keyframes fill {
