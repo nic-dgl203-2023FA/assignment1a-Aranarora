@@ -764,6 +764,7 @@ input[type="submit"]:hover {
     text-align: center;
     animation: wiggle 5s infinite linear;
     --scale: 1.2;
+    --weight: 700;
 }
 
 @keyframes wiggle {
@@ -783,6 +784,7 @@ input[type="submit"]:hover {
     100% {
         transform: scale(1);
         font-style: italic;
+        font-weight: var(--weight);
     }
 }
 
