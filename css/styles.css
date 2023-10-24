@@ -565,7 +565,7 @@ input[type="submit"]:hover {
 
 .grid-phrase {
     font-style: normal;
-    animation: typing 2s steps(4), blinking 0.5s steps(1) infinite;
+    animation: typing 2s steps(5), blinking 0.5s steps(1) infinite;
     overflow: hidden;
     border-right: 0.1em solid #ce2d4f;
     letter-spacing: 0.3em;
