@@ -14,3 +14,17 @@
      box-sizing: inherit;
  }
  
+ .menu{
+     position: fixed;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     top: 0;
+     width: 100%;
+     background-color: #101214;
+     color: #fcfcfc;
+     height: 70px;
+     padding: 1em 2em 1em 2em;
+     z-index: 1;
+     
+ }
