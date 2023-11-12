@@ -34,7 +34,9 @@
         & a:hover, &__nav-list a:hover {
             background-color: #fd3f35;
         }
-
+    & a:active, &__nav-list a:active{
+        background: rgba(253, 63, 53, 30%);
+    }
 
     
 

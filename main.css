@@ -30,4 +30,7 @@ html {
 }
 .menu a:hover, .menu__nav-list a:hover {
   background-color: #fd3f35;
+}
+.menu a:active, .menu__nav-list a:active {
+  background: rgba(253, 63, 53, 0.3);
 }/*# sourceMappingURL=main.css.map */
