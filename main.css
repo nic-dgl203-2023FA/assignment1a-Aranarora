@@ -70,4 +70,16 @@ html {
 #menu-toggle:checked + .menu__burger .menu__burger--button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
+}
+.menu__nav-list {
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  margin-top: 70px;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
