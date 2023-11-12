@@ -106,4 +106,8 @@ html {
   padding: 0;
   border: 0;
   transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+#menu-toggle:checked ~ .menu__nav-list {
+  padding-bottom: 100vh;
+  background-color: #101214;
 }/*# sourceMappingURL=main.css.map */
