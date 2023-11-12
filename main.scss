@@ -122,7 +122,14 @@
                 padding-bottom: 100vh;
                 background-color: #101214;
             
-               
+                & li {
+                border: 1px solid #fcfcfc;
+                height: 100%;
+                width: 100%;
+                display: block;
+                padding: 0;
+                transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+                }
             }
  }
 }
