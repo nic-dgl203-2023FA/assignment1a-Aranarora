@@ -82,4 +82,9 @@ html {
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+.menu__nav-list li a {
+  display: block;
+  text-align: center;
+  padding: 15px;
 }/*# sourceMappingURL=main.css.map */

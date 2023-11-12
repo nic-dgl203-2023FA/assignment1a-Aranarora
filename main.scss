@@ -91,7 +91,11 @@
             width: 100%;
             justify-content: center;
             align-items: center;
-          
+            & li a {
+                    display: block;
+                    text-align: center;
+                    padding: 15px;
+            }
           
         }
  }
