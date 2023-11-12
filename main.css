@@ -62,4 +62,8 @@ html {
 #menu-toggle:checked + .menu__burger .menu__burger--button::before {
   margin-top: 0px;
   transform: rotate(405deg);
+}
+.menu__burger--button::after {
+  content: "";
+  margin-top: 8px;
 }/*# sourceMappingURL=main.css.map */
