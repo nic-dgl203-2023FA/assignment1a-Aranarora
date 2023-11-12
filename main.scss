@@ -71,7 +71,10 @@
                 &::after {
                     content: "";
                     margin-top: 8px;
-                    
+                    #menu-toggle:checked+.menu__burger & {
+                            margin-top: 0px;
+                            transform: rotate(-405deg);
+                        }
                 }
                 
             }
