@@ -27,4 +27,7 @@ html {
 .menu a, .menu__nav-list a {
   padding: 10px 20px;
   display: inline;
+}
+.menu a:hover, .menu__nav-list a:hover {
+  background-color: #fd3f35;
 }/*# sourceMappingURL=main.css.map */
