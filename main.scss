@@ -47,6 +47,15 @@
             justify-content: center;
             align-items: center;
 
+            &--button{
+                #menu-toggle:checked+.menu__burger & {
+                        background: rgba(255, 255, 255, 0);
+                    }
+               
+                
+                
+                
+            }
         }
 
     
