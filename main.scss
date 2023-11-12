@@ -105,6 +105,9 @@
             color: #fcfcfc;
             background-color: #101214;
             }
+            &>li:not(:last-child) {
+                border-bottom: 1px solid #fcfcfc;
+            }
         }
  }
 

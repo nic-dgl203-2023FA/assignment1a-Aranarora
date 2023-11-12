@@ -96,4 +96,7 @@ html {
   width: 100%;
   color: #fcfcfc;
   background-color: #101214;
+}
+.menu__nav-list > li:not(:last-child) {
+  border-bottom: 1px solid #fcfcfc;
 }/*# sourceMappingURL=main.css.map */
