@@ -45,4 +45,13 @@ html {
 }
 #menu-toggle:checked + .menu__burger .menu__burger--button {
   background: rgba(255, 255, 255, 0);
+}
+.menu__burger--button, .menu__burger--button::before, .menu__burger--button::after {
+  display: block;
+  background-color: #fcfcfc;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
 }/*# sourceMappingURL=main.css.map */

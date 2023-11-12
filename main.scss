@@ -51,7 +51,15 @@
                 #menu-toggle:checked+.menu__burger & {
                         background: rgba(255, 255, 255, 0);
                     }
-               
+                &, &::before, &::after{
+                    display: block;
+                    background-color: #fcfcfc;
+                    position: absolute;
+                    height: 4px;
+                    width: 30px;
+                    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+                    border-radius: 2px;
+                }
                 
                 
                 
