@@ -10,8 +10,8 @@
         &__section{
             margin: auto;
             &--btn {
-                color: #fcfcfc;
-                border: 2px solid #fd3f35;
+                color: $primary-color;
+                border: 2px solid $accent-color;
                 text-decoration: none;
                 padding: 8px;
                 border-radius: 4px;
@@ -53,13 +53,13 @@
                     margin: 10% auto;
                     padding: 60px;
                     border-radius: 3px;
-                    background: #101214;
+                    background: $secondary-color;
                 }
                 &__form
                     &__form--close {
                         font-family: Arial, Helvetica, sans-serif;
-                        background: #fd3f35;
-                        color: #fcfcfc;
+                        background: $accent-color;
+                        color: $primary-color;
                         line-height: 25px;
                         position: absolute;
                         right: -12px;
@@ -72,13 +72,13 @@
                         -webkit-border-radius: 50%;
                         -moz-border-radius: 50%;
                         border-radius: 50%;
-                        -moz-box-shadow: 1px 1px 3px #101214;
-                        -webkit-box-shadow: 1px 1px 3px #101214;
-                        box-shadow: 1px 1px 3px #101214;
+                        -moz-box-shadow: 1px 1px 3px $secondary-color;
+                        -webkit-box-shadow: 1px 1px 3px $secondary-color;
+                        box-shadow: 1px 1px 3px $secondary-color;
                         padding-top: 5px;
 
                         &:hover {
-                                background: #fd3f35;
+                                background: $accent-color;
                             }
                     }
                     /* 5-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form */
@@ -89,15 +89,15 @@
                         padding: 12px 20px;
                         margin: 8px 0;
                         display: block;
-                        border: 1px solid #fcfcfc;
+                        border: 1px solid $primary-color;
                         border-radius: 4px;
                         box-sizing: border-box;
                     }
 
                     & input[type="submit"] {
                         width: 100%;
-                        background-color: #fd3f35;
-                        color: #fcfcfc;
+                        background-color: $accent-color;
+                        color: $primary-color;
                         padding: 14px 20px;
                         margin: 28px 0;
                         border: none;
