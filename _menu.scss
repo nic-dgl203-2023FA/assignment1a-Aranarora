@@ -5,8 +5,8 @@
      align-items: center;
      top: 0;
      width: 100%;
-     background-color: #101214;
-     color: #fcfcfc;
+     background-color: $secondary-color;
+     color: $primary-color;
      height: 70px;
      padding: 1em 2em 1em 2em;
      z-index: 1;
@@ -19,12 +19,12 @@
 
      & a:hover,
      &__nav-list a:hover {
-         background-color: #fd3f35;
+         background-color: $accent-color;
      }
 
      & a:active,
      &__nav-list a:active {
-         background: rgba(253, 63, 53, 30%);
+         background: rgba($accent-color, 30%);
      }
 
      &__burger {
@@ -45,7 +45,7 @@
              &::before,
              &::after {
                  display: block;
-                 background-color: #fcfcfc;
+                 background-color: $primary-color;
                  position: absolute;
                  height: 4px;
                  width: 30px;
@@ -103,12 +103,12 @@
              margin: 0;
              padding: 0.5em 0;
              width: 100%;
-             color: #fcfcfc;
-             background-color: #101214;
+             color: $primary-color;
+             background-color: $secondary-color;
          }
 
          &>li:not(:last-child) {
-             border-bottom: 1px solid #fcfcfc;
+             border-bottom: 1px solid $primary-color;
          }
          #menu-toggle~& li {
             height: 0;
@@ -121,10 +121,10 @@
         
         #menu-toggle:checked~& {
         padding-bottom: 100vh;
-        background-color: #101214;
+        background-color: $secondary-color;
         
             & li {
-                border: 1px solid #fcfcfc;
+                border: 1px solid $primary-color;
                 height: 100%;
                 width: 100%;
                 display: block;
