@@ -127,6 +127,17 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  background: #101214;
+  color: #fcfcfc;
+}
+header h1, header h2 {
+  text-align: center;
+}
+header h2 {
+  color: #fd3f35;
+}
+
 body {
   color: #101214;
   margin: 0%;
