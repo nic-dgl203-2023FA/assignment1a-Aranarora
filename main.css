@@ -216,6 +216,45 @@
   background-color: rgba(253, 63, 53, 0.8);
 }
 
+/* 1-3 Project
+----------------------------------*/
+.projects {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 70px 0px;
+  background: #fcfcfc;
+}
+.projects__wrap__item {
+  overflow: hidden;
+}
+.projects__wrap__item h3 {
+  margin-top: 0;
+}
+.projects__wrap__item h3 a {
+  color: #fd3f35;
+}
+.projects__wrap__item h3 a :hover {
+  color: rgba(253, 63, 53, 0.8);
+}
+.projects__wrap__item h3 a :active {
+  color: rgba(253, 63, 53, 0.3);
+}
+.projects__wrap__item img {
+  width: 300px;
+}
+.projects__wrap__item--btn {
+  color: #fcfcfc;
+  background: #fd3f35;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.projects__wrap__item--btn:hover {
+  color: #fcfcfc;
+  background: rgba(253, 63, 53, 0.8);
+}
+
 /* 1-1 Global styles
 ----------------------------------*/
 html {
