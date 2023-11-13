@@ -7,3 +7,10 @@ serif;
 
 $secondary-font: "Roboto",
 sans-serif;
+
+@mixin content-wrap{
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
