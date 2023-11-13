@@ -360,4 +360,11 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .hero-section__profile-flex {
+    display: flex;
+    padding-top: 25px;
+  }
+  .hero-section__profile-flex img {
+    margin-right: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

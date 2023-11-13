@@ -150,5 +150,13 @@ footer{
                     flex-direction: column;
                 }
         }
+        .hero-section__profile-flex {
+        display: flex;
+        padding-top: 25px;
+
+        & img {
+                margin-right: 20px;
+            }
+        }
  }
  
