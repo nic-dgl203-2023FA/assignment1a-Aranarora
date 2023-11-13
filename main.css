@@ -78,6 +78,8 @@
   padding: 15px;
 }
 .menu__nav-list > li {
+  padding: 5px;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   margin: 0;
