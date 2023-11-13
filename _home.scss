@@ -9,7 +9,21 @@
         
         &__section{
             margin: auto;
+            &--btn {
+                color: #fcfcfc;
+                border: 2px solid #fd3f35;
+                text-decoration: none;
+                padding: 8px;
+                border-radius: 4px;
             
+                &:hover {
+                    background: rgba(253, 63, 53, 90%);
+                }
+        
+                :active {
+                background: rgba(253, 63, 53, 30%);
+                }
+            }
         }
     }
 }
