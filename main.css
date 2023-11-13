@@ -15,6 +15,7 @@
 .menu a {
   padding: 10px 20px;
   display: inline;
+  white-space: nowrap;
 }
 .menu a:hover, .menu__nav-list a:hover {
   background-color: #fd3f35;
