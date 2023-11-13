@@ -37,6 +37,9 @@
             #menu-toggle:checked~& li {
             all: unset;
             }
+            #menu-toggle:checked~& {
+            padding-bottom: 0vh
+            }
         }
         &__burger {
             display: none;

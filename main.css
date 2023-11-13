@@ -149,6 +149,9 @@ html {
   #menu-toggle:checked ~ .menu__nav-list li {
     all: unset;
   }
+  #menu-toggle:checked ~ .menu__nav-list {
+    padding-bottom: 0vh;
+  }
   .menu__burger {
     display: none;
   }
