@@ -254,6 +254,13 @@
   color: #fcfcfc;
   background: rgba(253, 63, 53, 0.8);
 }
+.projects__wrap > .projects__wrap__item {
+  border-bottom: 1px solid #101214;
+  padding: 25px 0;
+}
+.projects__wrap > .projects__wrap__item :last-of-type {
+  border-bottom: none;
+}
 
 /* 1-1 Global styles
 ----------------------------------*/

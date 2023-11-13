@@ -156,5 +156,12 @@
                         background: rgba(253, 63, 53, 80%);
                 }
             }
-    }
+            &>&__item{
+                    border-bottom: 1px solid $secondary-color;
+                    padding: 25px 0;
+                    :last-of-type {
+                            border-bottom: none;
+                    }
+            }
+    }    
 }
