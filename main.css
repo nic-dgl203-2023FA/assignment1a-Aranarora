@@ -135,4 +135,8 @@ html {
     max-width: 750px;
     width: 85%;
   }
+  .menu__nav-list > li {
+    padding: 0;
+    width: 15%;
+  }
 }/*# sourceMappingURL=main.css.map */
