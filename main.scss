@@ -15,25 +15,24 @@
  }
 
  @media screen and (min-width: 768px) {
-    .menu{
-    &__nav-list {
-        position: relative;
-        flex-direction: row;
-        justify-content: flex-end;
-        margin: 0;
-        max-width: 750px;
-        width: 85%;
-
-        &>li {
-            padding: 0;
-            width: 15%;
-            
-            } 
-        }
-    
+    .menu {
+        &__nav-list {
+            position: relative;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin: 0;
+            max-width: 750px;
+            width: 85%;
+        
+            &>li {
+                padding: 0;
+                width: 15%;
+        
+            }
+            }
         &__burger {
             display: none;
-        }    
+        }
+    }
  }
-}
  
