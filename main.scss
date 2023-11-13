@@ -167,5 +167,11 @@ footer{
                 margin-right: 20px;
             }
         }
+        // Work-section
+        .work__experience-wrap__job-item{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            column-gap: 20px;
+        }
  }
  
