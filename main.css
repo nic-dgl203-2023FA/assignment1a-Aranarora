@@ -464,4 +464,8 @@ footer {
   .hero-section__profile-flex img {
     margin-right: 20px;
   }
+  .projects__wrap__item img {
+    float: left;
+    margin-right: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
