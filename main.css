@@ -143,6 +143,9 @@ html {
   .menu__nav-list li a {
     padding: 10px 20px;
   }
+  #menu-toggle ~ .menu__nav-list li {
+    height: 100%;
+  }
   .menu__burger {
     display: none;
   }

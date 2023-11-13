@@ -31,6 +31,9 @@
             & li a{
             padding: 10px 20px;
             } 
+            #menu-toggle~& li {
+            height: 100%;
+            }
         }
         &__burger {
             display: none;
