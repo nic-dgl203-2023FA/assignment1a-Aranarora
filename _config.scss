@@ -14,3 +14,11 @@ sans-serif;
     margin: 0 auto;
     padding: 70px 0px;
 }
+
+@mixin divider{
+    border-bottom: 1px solid $secondary-color;
+        padding: 25px 0;
+        &:last-of-type {
+                border-bottom: none;
+            }
+}
