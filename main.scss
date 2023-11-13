@@ -27,9 +27,11 @@
             &>li {
                 padding: 0;
                 width: 15%;
-        
             }
-            }
+            & li a{
+            padding: 10px 20px;
+            } 
+        }
         &__burger {
             display: none;
         }

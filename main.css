@@ -66,6 +66,7 @@
   position: absolute;
   top: 0;
   margin-top: 70px;
+  padding: 0%;
   left: 0;
   flex-direction: column;
   width: 100%;
@@ -138,6 +139,9 @@ html {
   .menu__nav-list > li {
     padding: 0;
     width: 15%;
+  }
+  .menu__nav-list li a {
+    padding: 10px 20px;
   }
   .menu__burger {
     display: none;
