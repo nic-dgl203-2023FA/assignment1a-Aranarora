@@ -141,5 +141,14 @@ footer{
             display: none;
         }
     }
+        .footer__contact-list {
+            display: flex;
+            justify-content: space-between;
+
+            &__direct-contact {
+                    display: flex;
+                    flex-direction: column;
+                }
+        }
  }
  
