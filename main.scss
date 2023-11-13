@@ -51,6 +51,13 @@
      margin: 0;
  }
 
+ .content-wrap {
+     max-width: 800px;
+     width: 85%;
+     margin: 0 auto;
+     padding: 70px 0px;
+ }
+
  @media screen and (min-width: 768px) {
     h1 {
     font-size: 100px;
