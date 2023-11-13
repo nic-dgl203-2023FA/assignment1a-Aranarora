@@ -115,6 +115,12 @@
   display: none;
 }
 
+.hero-section {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 70px 0px;
+}
 .hero-section__profile-flex img {
   display: block;
   margin: 0 auto;

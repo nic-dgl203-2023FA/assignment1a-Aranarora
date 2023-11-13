@@ -1,4 +1,6 @@
  .hero-section{
+    @include content-wrap;
+
     &__profile-flex{
         & img {
         display: block;
