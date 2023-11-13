@@ -85,6 +85,16 @@
         font-family: $primary-font;
         margin-bottom: 0;
     }
+    &__contact-list ul{
+        margin-top: 0px;
+        list-style-type: none;
+        padding: 0;
+    }
+    &__contact-list a {
+        margin-top: 0px;
+        list-style-type: none;
+        padding: 0;
+    }
 }
 
  @media screen and (min-width: 768px) {
