@@ -115,6 +115,101 @@
   display: none;
 }
 
+.hero-section__profile-flex img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 300px;
+}
+.hero-section__profile-flex__section {
+  margin: auto;
+  /* 5-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb */
+}
+.hero-section__profile-flex__section--btn {
+  color: #fcfcfc;
+  border: 2px solid #fd3f35;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.hero-section__profile-flex__section--btn:hover {
+  background: rgba(253, 63, 53, 0.9);
+}
+.hero-section__profile-flex__section--btn :active {
+  background: rgba(253, 63, 53, 0.3);
+}
+.hero-section__profile-flex__section__modalDialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  transition: opacity 100ms ease-in;
+  pointer-events: none;
+  /* 5-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form */
+}
+.hero-section__profile-flex__section__modalDialog h2 {
+  margin-bottom: 20px;
+}
+.hero-section__profile-flex__section__modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.hero-section__profile-flex__section__modalDialog > .hero-section__profile-flex__section__modalDialog__form {
+  max-width: 800px;
+  width: 90%;
+  position: relative;
+  margin: 10% auto;
+  padding: 60px;
+  border-radius: 3px;
+  background: #101214;
+}
+.hero-section__profile-flex__section__modalDialog__form .hero-section__profile-flex__section__modalDialog__form--close {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fd3f35;
+  color: #fcfcfc;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 34px;
+  height: 34px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px #101214;
+  padding-top: 5px;
+}
+.hero-section__profile-flex__section__modalDialog__form .hero-section__profile-flex__section__modalDialog__form--close:hover {
+  background: #fd3f35;
+}
+.hero-section__profile-flex__section__modalDialog input[type=text], .hero-section__profile-flex__section__modalDialog select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #fcfcfc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.hero-section__profile-flex__section__modalDialog input[type=submit] {
+  width: 100%;
+  background-color: #fd3f35;
+  color: #fcfcfc;
+  padding: 14px 20px;
+  margin: 28px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero-section__profile-flex__section__modalDialog input[type=submit]:hover {
+  background-color: rgba(253, 63, 53, 0.8);
+}
+
 /* 1-1 Global styles
 ----------------------------------*/
 html {
@@ -180,16 +275,10 @@ h3 {
   margin-bottom: 0;
 }
 
-.content-wrap {
-  max-width: 800px;
-  width: 85%;
-  margin: 0 auto;
-  padding: 70px 0px;
-}
-
 .footer {
   background: #101214;
   color: #fcfcfc;
+  text-align: center;
 }
 .footer a {
   padding: 5px 0px;
