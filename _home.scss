@@ -178,3 +178,24 @@
     }
 }
 }
+
+
+/* 1-5 Education
+------------------------------------*/
+
+.education {
+    color: $primary-color;
+    background-image: url(placeholder-images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+
+    p {
+            width: 50%;
+            font-size: medium;
+        }
+    &__wrap{
+        @include content-wrap;
+        @include detail;
+    }
+}
