@@ -146,12 +146,14 @@ a:hover {
 }
 
 h1 {
-  font-size: 100px;
-  line-height: 1;
+  font-size: 75px;
+  line-height: 0.9;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 45px;
+  line-height: 1;
 }
 
 h1,
@@ -162,7 +164,44 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0;
+}
+
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 70px 0px;
+}
+
+.footer {
+  background: #101214;
+  color: #fcfcfc;
+}
+.footer a {
+  padding: 5px 0px;
+  color: #fd3f35;
+}
+.footer a :hover {
+  padding: 5px 0px;
+  color: rgba(253, 63, 53, 0.8);
+}
+.footer a :active {
+  padding: 5px 0px;
+  color: rgba(253, 63, 53, 0.3);
+}
+.footer p {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 100px;
+    line-height: 1;
+  }
   .menu__nav-list {
     position: relative;
     flex-direction: row;
