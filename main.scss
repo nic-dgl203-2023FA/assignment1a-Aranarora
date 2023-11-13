@@ -62,6 +62,30 @@
      padding: 70px 0px;
  }
 
+//  footer
+
+.footer {
+    background: $secondary-color;
+    color: $primary-color;
+
+    & a {
+            padding: 5px 0px;
+            color: $accent-color;
+            :hover {
+                padding: 5px 0px;
+                color: rgba($accent-color, 80%);
+            }
+            :active {
+                padding: 5px 0px;
+                color: rgba($accent-color, 30%);
+            }
+        }
+    & p {
+        font-family: $primary-font;
+        margin-bottom: 0;
+    }
+}
+
  @media screen and (min-width: 768px) {
     h1 {
     font-size: 100px;
