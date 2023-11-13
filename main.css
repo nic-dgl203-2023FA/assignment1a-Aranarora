@@ -127,6 +127,41 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  color: #101214;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+}
+
 @media screen and (min-width: 768px) {
   .menu__nav-list {
     position: relative;
