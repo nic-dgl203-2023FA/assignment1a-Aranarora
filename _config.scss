@@ -15,6 +15,15 @@ sans-serif;
     padding: 70px 0px;
 }
 
+@mixin detail{
+    h3+p {
+        font-style: italic;
+    }
+    h3~p {
+        margin: 0;
+    }
+}
+
 @mixin divider{
     border-bottom: 1px solid $secondary-color;
         padding: 25px 0;
