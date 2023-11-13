@@ -12,7 +12,7 @@
   padding: 1em 2em 1em 2em;
   z-index: 1;
 }
-.menu a, .menu__nav-list a {
+.menu a {
   padding: 10px 20px;
   display: inline;
 }
