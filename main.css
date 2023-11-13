@@ -146,6 +146,9 @@ html {
   #menu-toggle ~ .menu__nav-list li {
     height: 100%;
   }
+  #menu-toggle:checked ~ .menu__nav-list li {
+    all: unset;
+  }
   .menu__burger {
     display: none;
   }

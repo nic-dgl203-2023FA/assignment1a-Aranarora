@@ -34,6 +34,9 @@
             #menu-toggle~& li {
             height: 100%;
             }
+            #menu-toggle:checked~& li {
+            all: unset;
+            }
         }
         &__burger {
             display: none;
