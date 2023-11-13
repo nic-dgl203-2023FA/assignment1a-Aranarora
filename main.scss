@@ -36,8 +36,6 @@
      font-size: 75px;
      line-height: 0.9;
      margin-bottom: 20px;
-    //  font-size: 100px;
-    //  line-height: 1;
  }
 
  h2 {
@@ -54,6 +52,10 @@
  }
 
  @media screen and (min-width: 768px) {
+    h1 {
+    font-size: 100px;
+    line-height: 1;
+    }
     .menu {
         &__nav-list {
             position: relative;
