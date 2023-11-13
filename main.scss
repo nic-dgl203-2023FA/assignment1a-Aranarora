@@ -70,9 +70,11 @@
  }
 
 //  footer
-
-.footer {
+footer{
     background: $secondary-color;
+}
+.footer {
+    @include content-wrap;
     color: $primary-color;
     text-align: center;
 
