@@ -139,4 +139,7 @@ html {
     padding: 0;
     width: 15%;
   }
+  .menu__burger {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -29,7 +29,11 @@
             width: 15%;
             
             } 
-        } 
+        }
+    
+        &__burger {
+            display: none;
+        }    
  }
 }
  
