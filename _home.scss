@@ -161,3 +161,20 @@
             }
     }    
 }
+
+/* 1-4 Work Experience
+----------------------------------*/
+
+.work{
+    background: rgba(253, 63, 53, 50%);
+    
+
+ &__experience-wrap{
+    @include content-wrap;
+    @include detail;
+    &>&__job-item {
+        @include divider;
+
+    }
+}
+}
