@@ -12,12 +12,12 @@ footer {
         padding: 5px 0px;
         color: $accent-color;
 
-        :hover {
+        &:hover {
             padding: 5px 0px;
             color: rgba($accent-color, 80%);
         }
 
-        :active {
+        &:active {
             padding: 5px 0px;
             color: rgba($accent-color, 30%);
         }

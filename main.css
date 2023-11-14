@@ -255,11 +255,11 @@ footer {
   padding: 5px 0px;
   color: #fd3f35;
 }
-.footer a :hover {
+.footer a:hover {
   padding: 5px 0px;
   color: rgba(253, 63, 53, 0.8);
 }
-.footer a :active {
+.footer a:active {
   padding: 5px 0px;
   color: rgba(253, 63, 53, 0.3);
 }
