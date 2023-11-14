@@ -19,8 +19,8 @@
             &__btn{
                     font-family: "Roboto", sans-serif;
                     font-size: 16px;
-                    color: #fcfcfc;
-                    background: #fd3f35;
+                    color: $primary-color;
+                    background: $accent-color;
                     text-decoration: none;
                     padding: 8px;
                     border-radius: 4px;
@@ -28,7 +28,7 @@
                     transition: transform 0.5s 0.1s ease-in-out, background 0.4s 0.2s ease-out, border-radius 0.3s 0.3s ease-in;
                     &:hover {
                             transform: scale(1.5);
-                            background: rgba(253, 63, 53, 80%);
+                            background: rgba($accent-color, 80%);
                             border-radius: 8px;
                         }
             }
@@ -36,8 +36,8 @@
             // 2-2 Second cell
 
             &__heading {
-                color: #fd3f35;
-                text-shadow: 1px 1px 0 rgba(253, 63, 53, 80%);
+                color: $accent-color;
+                text-shadow: 1px 1px 0 rgba($accent-color, 80%);
                 animation-name: scaleInOut;
                 animation-duration: 3s;
                 animation-delay: 1s;
@@ -61,7 +61,7 @@
                 font-style: normal;
                 animation: typing 2s steps(5), blinking 0.5s steps(1) infinite;
                 overflow: hidden;
-                border-right: 0.1em solid #ce2d4f;
+                border-right: 0.1em solid $accent-color;
                 letter-spacing: 0.3em;
             }
 
@@ -98,7 +98,7 @@
             //5-4 The shape taken from: https://css-tricks.com/the-shapes-of-css/
 
             &__pointburts {
-                background: #fd3f35;
+                background: $accent-color;
                 width: 80px;
                 height: 80px;
                 position: relative;
@@ -112,7 +112,7 @@
                         left: 0;
                         height: 80px;
                         width: 80px;
-                        background: #fd3f35;
+                        background: $accent-color;
                 }
                 &:before {
                         transform: rotate(30deg);

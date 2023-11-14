@@ -19,11 +19,11 @@
                 border-radius: 4px;
             
                 &:hover {
-                    background: rgba(253, 63, 53, 90%);
+                    background: rgba($accent-color, 90%);
                 }
         
                 :active {
-                background: rgba(253, 63, 53, 30%);
+                background: rgba($accent-color, 30%);
                 }
             }
             /* 5-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb */
@@ -108,7 +108,7 @@
                     }
 
                     & input[type="submit"]:hover {
-                        background-color: rgba(253, 63, 53, 80%);
+                        background-color: rgba($accent-color, 80%);
                     }
 
             }
@@ -132,11 +132,11 @@
                     color: $accent-color;
                     
                     :hover {
-                        color: rgba(253, 63, 53, 80%);
+                        color: rgba($accent-color, 80%);
                     }
                     
                     :active {
-                        color: rgba(253, 63, 53, 30%);
+                        color: rgba($accent-color, 30%);
                     }
                 }
             }
@@ -153,7 +153,7 @@
                 border-radius: 4px;
                 &:hover {
                         color: $primary-color;
-                        background: rgba(253, 63, 53, 80%);
+                        background: rgba($accent-color, 80%);
                 }
             }
             &>&__item{
@@ -166,7 +166,7 @@
 ----------------------------------*/
 
 .work{
-    background: rgba(253, 63, 53, 50%);
+    background: rgba($accent-color, 50%);
     
 
  &__experience-wrap{
