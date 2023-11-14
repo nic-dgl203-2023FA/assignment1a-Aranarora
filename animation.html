@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="main.css">
     <title>Animation</title>
 
 </head>
@@ -16,18 +15,18 @@
 <body>
     <header>
         <!-- code taken from https://codepen.io/alvarotrigo/pen/MWEJEWG -->
-        <section class="top-nav">
+        <section class="menu">
             <a href="index.html">Aran Arora</a>
             <input id="menu-toggle" type="checkbox" />
-            <label class="menu-button-container" for="menu-toggle">
-        <mark class="menu-button"></mark>
-      </label>
-            <ul class="menu">
+            <label class="menu__burger" for="menu-toggle">
+                <mark class="menu__burger--button"></mark>
+            </label>
+            <ul class="menu__nav-list">
                 <li><a href="motion.html">Motion</a></li>
                 <li><a href="animation.html">Animation</a></li>
             </ul>
         </section>
-        <div class="content-wrap">
+        <div class="hero-section">
 
             <h1>Animation</h1>
             <h2>Created by Aran Arora</h2>
@@ -38,8 +37,8 @@
         <div id="initials-animation">
             <!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
-            <g id="Cube">
-                <g id="Left-cube">
+            <g id="cube">
+                <g id="cube__left">
                     <path d="M724.73,218.69c-50.02,52.79-109.87,115.44-160.21,167.92c0,0,1.9-7.11,1.9-7.11c7.74,26,23.08,78.41,30.72,104.44
                         c9.15,30.53,21.67,74.28,30.49,104.5c0,0-19.41-5.17-19.41-5.17s77.99-80.46,77.99-80.46l-3.55,12.81
                         c-8.21-30.57-20.43-74.29-28.94-105c19.78-20.72,41.33-43.26,61.55-63.57c6.19-6.25,12.42-12.44,18.67-18.63
@@ -53,7 +52,7 @@
                         s2.96-2.83,2.96-2.83c37.37-35.7,88.56-84.46,126.07-120.01c0,0,42.16-39.87,42.16-39.87c0.66-0.63,1.71-0.6,2.33,0.07
                         C725.34,217.06,725.33,218.06,724.73,218.69L724.73,218.69z"/>
                 </g>
-                <g id="Right-cube">
+                <g id="cube__right">
                     <path d="M1230.81,315.64c30.39,22.47,60.22,46.12,89.57,69.9c0,0,4.72,3.86,4.72,3.86s-1.2,7.76-1.2,7.76
                         c-5.88,38.97-12.25,77.86-19.15,116.65c-3.81,22.21-9.52,52.25-13.71,74.64c0,0-28.75-25.12-28.75-25.12
                         c-11.63-10.17-29.3-25.53-40.68-35.68c0,0-9.37-8.31-9.37-8.31c5.36-28.34,11.49-60.74,17.22-89.03
@@ -65,7 +64,7 @@
                         l-22.33,99.76c0,0-0.75-2.44-0.75-2.44l39.22,37.22c0,0-4.14,1.25-4.14,1.25l17.64-76.65c4.36-19.12,13.28-57.54,17.74-76.63
                         c0,0,0.61,2,0.61,2l-81.78-78.15c0,0-1.08-1.04-1.08-1.04s1.92-2.03,1.92-2.03S1230.81,315.64,1230.81,315.64L1230.81,315.64z"/>
                 </g>
-                <g id="Top-cube">
+                <g id="cube__top">
                     <path d="M1057.69,703.63c-28.13,20.81-59.75,42.42-88.86,62.04c0,0-5.16,3.49-5.16,3.49l-7.08-3.81
                         c-28.12-14.96-57.56-31.01-85.39-46.61c-23.29-12.95-56.32-31.99-79.59-45.14c12.65-8.49,38.64-25.88,51.1-34.24
                         c10.71-7.3,23.01-15.33,33.94-22.47c30.73,19.18,71.01,44.79,101.74,64.61c0,0-27.36-0.99-27.36-0.99
@@ -80,12 +79,12 @@
                 </g>
             </g>
             <g id="A-symbol">
-                <polygon id="A-left" points="960.94,115 887.68,242.34 887.68,269.44 867.87,283.37 874.95,308.84 804.2,447.49 787.41,453.86 
+                <polygon id="A-symbol__left" points="960.94,115 887.68,242.34 887.68,269.44 867.87,283.37 874.95,308.84 804.2,447.49 787.41,453.86 
                     754.68,515.41 730.63,528.14 635.83,705 767.42,663.97 782.98,630.01 822.6,617.28 865.04,536.63 960.94,354.81 	"/>
-                <polygon id="A-right" points="959.84,115 1033.1,242.34 1033.1,269.44 1052.91,283.37 1045.83,308.84 1116.57,447.49 
+                <polygon id="A-symbol__right" points="959.84,115 1033.1,242.34 1033.1,269.44 1052.91,283.37 1045.83,308.84 1116.57,447.49 
                     1133.36,453.86 1166.09,515.41 1190.15,528.14 1284.94,705 1153.36,663.97 1137.8,630.01 1098.18,617.28 1055.74,536.63 
                     959.84,354.81 	"/>
-                <polygon id="A-middle" points="1012.08,453.86 908.7,453.86 865.04,536.63 1055.74,536.63 	"/>
+                <polygon id="A-symbol__middle" points="1012.08,453.86 908.7,453.86 865.04,536.63 1055.74,536.63 	"/>
             </g>
             </svg>
 
@@ -93,33 +92,38 @@
         </div>
         <h3 class="animation-text">Aran Arora</h3>
     </main>
+    <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
     <footer>
-        <div class="content-wrap" id="contact">
+        <div class="footer" id="contact">
             <h2>Let's Keep in Touch!</h2>
-
+    
             <!-- Social media and contact links. Add or remove any networks. -->
-            <div class="contact-list">
-                <div class="direct-contact">
+            <div class="footer__contact-list">
+                <div class="direct-contact footer__contact-list__direct-contact">
                     <p>EMAIL ADDRESS</p>
                     <ul>
+    
                         <li><a href="mailto:aranarora007@gmail.com">aranarora007@gmail.com</a></li>
                     </ul>
                     <p>PHONE NUMBER</p>
                     <ul>
+    
                         <li><a href="tel:778-992-3125">778-992-3125</a></li>
                     </ul>
                 </div>
-                <div class="social-contact">
+                <div class="social-contact footer__contact-lis--social-contact">
                     <p>SOCIAL MEDIA</p>
                     <ul>
+    
+    
                         <li><a href="https://www.instagram.com/aranarora/">Instagram</a></li>
                         <li><a href="https://www.linkedin.com/in/aran-arora-9a561524a/">LinkedIn</a></li>
                         <li><a href="https://www.facebook.com/aran.arora.7/">Facebook</a></li>
                     </ul>
-
+    
                 </div>
             </div>
-
+    
         </div>
     </footer>
 
