@@ -1,0 +1,13 @@
+ header {
+     background: $secondary-color;
+     color: $primary-color;
+
+     & h1,
+     h2 {
+         text-align: center;
+     }
+
+     & h2 {
+         color: #fd3f35;
+     }
+ }

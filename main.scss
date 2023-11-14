@@ -1,22 +1,13 @@
  /* 1-0 Home page */
  @import 'global';
+ @import 'header';
  @import 'config';
  @import 'menu';
  @import 'home';
  @import 'motion';
  @import 'animation';
 
- header{
- background: #101214;
- color: #fcfcfc;
 
- & h1, h2 {
-    text-align: center;
- }
- & h2 {
-     color: #fd3f35;
- }
-}
 
 //  footer
 footer{
