@@ -43,6 +43,17 @@
                 animation-delay: 1s;
                 animation-fill-mode: backwards;
             }
+
+            // 2-3 Third cell
+            
+            &__img:hover {
+                animation-name: move;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-fill-mode: backwards;
+                animation-direction: alternate;
+                animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
+            }
         }
 
 }

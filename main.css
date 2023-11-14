@@ -402,6 +402,14 @@
   animation-delay: 1s;
   animation-fill-mode: backwards;
 }
+.grid-container__item__img:hover {
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
+}
 
 /* 1-1 Global styles
 ----------------------------------*/
