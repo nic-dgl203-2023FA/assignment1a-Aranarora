@@ -1,5 +1,4 @@
 /* 4-0 Animation */
-
 /* 4-1 Keyframes */
 @include fill;
 @include cube-1;
@@ -7,9 +6,8 @@
 @include wiggle;
 
 /* 4-2 Variables */
-
 :root {
-    --red: #fd3f35;
+    --red: #{$accent-color};
     --fade: rgba(253, 63, 53, 80%);
     --morefade: rgba(253, 63, 53, 30%);
     --scale: 0.1;

@@ -399,10 +399,10 @@ footer {
 .projects__wrap__item h3 a {
   color: #fd3f35;
 }
-.projects__wrap__item h3 a :hover {
+.projects__wrap__item h3 a:hover {
   color: rgba(253, 63, 53, 0.8);
 }
-.projects__wrap__item h3 a :active {
+.projects__wrap__item h3 a:active {
   color: rgba(253, 63, 53, 0.3);
 }
 .projects__wrap__item img {
