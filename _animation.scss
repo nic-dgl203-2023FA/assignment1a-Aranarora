@@ -22,5 +22,16 @@
     --deg: 0;
 }
 
+#cube{
+    &__right {
+            --fromto: 0%;
+            --tofrom: 100%;
+            --scale: 0.8;
+            --red: rgba(253, 63, 53, 80%);
+            offset-path: path("M 10,100 A 50,10 0 1,1 0,0");
+            animation: cube-1 var(--duration) 0s cubic-bezier(.62, .49, 0, 1.04) infinite, fill 1s both;
+    }
+
+}
 
 
