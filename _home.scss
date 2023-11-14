@@ -28,7 +28,7 @@
                 background: rgba($accent-color, 30%);
                 }
             }
-            /* 5-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb */
+            // 6-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb 
             &__modalDialog{
                 position: fixed;
                 top: 0;
@@ -85,7 +85,8 @@
                                 background: $accent-color;
                             }
                     }
-                    /* 5-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form */
+                    
+                    // 6-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form
 
                     & input[type="text"],
                     & select {
