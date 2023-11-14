@@ -463,6 +463,56 @@
   transform: rotate(60deg);
 }
 
+/* 6-1 Animation */
+@keyframes fill {
+  from {
+    fill: white;
+  }
+  to {
+    fill: var(--red);
+  }
+}
+@keyframes cube-1 {
+  from {
+    offset-distance: var(--fromto);
+    transform: scale(var(--scale));
+  }
+  to {
+    offset-distance: var(--tofrom);
+  }
+}
+@keyframes bouncefadein {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes wiggle {
+  30% {
+    transform: scale(var(--scale));
+  }
+  40%, 60% {
+    transform: rotate(var(--minusdeg)) scale(var(--scale));
+  }
+  50% {
+    transform: rotate(var(--adddeg)) scale(var(--scale));
+  }
+  70% {
+    transform: rotate(var(--deg)) scale(var(--scale));
+  }
+  100% {
+    transform: scale(var(--original));
+    font-style: italic;
+    font-weight: var(--weight);
+  }
+}
 /* 1-1 Global styles
 ----------------------------------*/
 html {
