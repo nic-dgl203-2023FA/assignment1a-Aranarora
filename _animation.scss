@@ -5,6 +5,22 @@
 @include wiggle;
 
 
+/* 6-2 Variables */
+
+:root {
+    --red: #fd3f35;
+    --fade: rgba(253, 63, 53, 80%);
+    --morefade: rgba(253, 63, 53, 30%);
+    --scale: 0.1;
+    --fromto: 0%;
+    --tofrom: 0%;
+    --original: 1;
+    --duration: 5s;
+    --weight: 700;
+    --minusdeg: -20deg;
+    --adddeg: 20deg;
+    --deg: 0;
+}
 
 
 
