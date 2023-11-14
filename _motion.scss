@@ -32,6 +32,17 @@
                             border-radius: 8px;
                         }
             }
+
+            // 2-2 Second cell
+
+            &__heading {
+                color: #fd3f35;
+                text-shadow: 1px 1px 0 rgba(253, 63, 53, 80%);
+                animation-name: scaleInOut;
+                animation-duration: 3s;
+                animation-delay: 1s;
+                animation-fill-mode: backwards;
+            }
         }
 
 }

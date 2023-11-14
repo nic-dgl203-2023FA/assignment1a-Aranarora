@@ -394,6 +394,14 @@
   background: rgba(253, 63, 53, 0.8);
   border-radius: 8px;
 }
+.grid-container__item__heading {
+  color: #fd3f35;
+  text-shadow: 1px 1px 0 rgba(253, 63, 53, 0.8);
+  animation-name: scaleInOut;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
 
 /* 1-1 Global styles
 ----------------------------------*/
