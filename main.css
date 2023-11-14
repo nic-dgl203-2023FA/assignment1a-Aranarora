@@ -431,23 +431,23 @@ footer {
 .work {
   background: rgba(253, 63, 53, 0.5);
 }
-.work__experience-wrap {
+.work__experience-wrap, .education__wrap {
   max-width: 800px;
   width: 85%;
   margin: 0 auto;
   padding: 70px 0px;
 }
-.work__experience-wrap h3 + p {
+.work__experience-wrap h3 + p, .education__wrap h3 + p {
   font-style: italic;
 }
-.work__experience-wrap h3 ~ p {
+.work__experience-wrap h3 ~ p, .education__wrap h3 ~ p {
   margin: 0;
 }
-.work__experience-wrap > .work__experience-wrap__job-item {
+.work__experience-wrap > .work__experience-wrap__job-item, .education__wrap > .work__experience-wrap__job-item {
   border-bottom: 1px solid #101214;
   padding: 25px 0;
 }
-.work__experience-wrap > .work__experience-wrap__job-item:last-of-type {
+.work__experience-wrap > .work__experience-wrap__job-item:last-of-type, .education__wrap > .work__experience-wrap__job-item:last-of-type {
   border-bottom: none;
 }
 
@@ -463,19 +463,6 @@ footer {
   width: 50%;
   font-size: medium;
 }
-.education__wrap {
-  max-width: 800px;
-  width: 85%;
-  margin: 0 auto;
-  padding: 70px 0px;
-}
-.education__wrap h3 + p {
-  font-style: italic;
-}
-.education__wrap h3 ~ p {
-  margin: 0;
-}
-
 /* 3-0 Motion page */
 /* 3-0 Motion page */
 /* 3-1 Keyframes */
