@@ -439,6 +439,29 @@
 .grid-container__item__3d span:nth-child(5) {
   animation-delay: 0.8s, 2.8s;
 }
+.grid-container__item__pointburts {
+  background: #fd3f35;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  text-align: center;
+  animation: rotation 3s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.grid-container__item__pointburts:before, .grid-container__item__pointburts:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  background: #fd3f35;
+}
+.grid-container__item__pointburts:before {
+  transform: rotate(30deg);
+}
+.grid-container__item__pointburts:after {
+  transform: rotate(60deg);
+}
 
 /* 1-1 Global styles
 ----------------------------------*/

@@ -93,6 +93,34 @@
                 }
             }
 
+            // 2-6 Sixth cell
+
+            //5-4 The shape taken from: https://css-tricks.com/the-shapes-of-css/
+
+            &__pointburts {
+                background: #fd3f35;
+                width: 80px;
+                height: 80px;
+                position: relative;
+                text-align: center;
+                animation: rotation 3s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);
+                &:before,
+                &:after {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 80px;
+                        width: 80px;
+                        background: #fd3f35;
+                }
+                &:before {
+                        transform: rotate(30deg);
+                    }
+                &:after {
+                    transform: rotate(60deg);
+                }
+            }
         }
 
 }
