@@ -372,6 +372,13 @@
     transform: rotate(360deg);
   }
 }
+.grid-container__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
 /* 1-1 Global styles
 ----------------------------------*/
 html {
