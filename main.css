@@ -624,4 +624,10 @@ footer {
     -moz-column-gap: 20px;
          column-gap: 20px;
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns for large screens */
+    grid-gap: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

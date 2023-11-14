@@ -174,5 +174,13 @@ footer{
             grid-template-columns: 1fr 2fr;
             column-gap: 20px;
         }
+
+        // Motion page Styling
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 3 columns for large screens */
+            grid-gap: 20px;
+        }
  }
  
