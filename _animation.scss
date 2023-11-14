@@ -50,4 +50,16 @@
 
 }
 
+#A-symbol{
+    &__left {
+            animation: bouncefadein var(--duration) 0.2s cubic-bezier(.36, .44, 0, 1.04) infinite, fill 1s both;
+        }
+    &__right {
+        animation: bouncefadein var(--duration) 0.4s cubic-bezier(.36, .44, 0, 1.04) infinite, fill 1s both;
+    }
+    &__middle {
+        animation: bouncefadein var(--duration) 0.6s cubic-bezier(.36, .44, 0, 1.04) infinite, fill 1s both;
+    }
+}
+
 
