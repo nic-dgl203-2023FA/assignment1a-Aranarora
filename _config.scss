@@ -26,26 +26,26 @@ sans-serif;
 
 @mixin divider{
     border-bottom: 1px solid $secondary-color;
-        padding: 25px 0;
-        &:last-of-type {
-                border-bottom: none;
-            }
+    padding: 25px 0;
+    &:last-of-type {
+        border-bottom: none;
+    }
 }
 
 @mixin scaleInOut{
     @keyframes scaleInOut {
-            0% {
-                transform: scale(1.5);
-            }
-    
-            75% {
-                transform: scale(0.5);
-            }
-    
-            100% {
-                transform: scale(1);
-            }
+        0% {
+            transform: scale(1.5);
         }
+    
+        75% {
+            transform: scale(0.5);
+        }
+    
+        100% {
+            transform: scale(1);
+        }
+    }
 }
 
 @mixin move{
@@ -73,12 +73,11 @@ sans-serif;
         100% {
             width: 40%;
         }
-        }
+    }
 }
 
 @mixin blinking{
     @keyframes blinking {
-    
         0%,
         100% {
             border-color: transparent;
@@ -118,6 +117,75 @@ sans-serif;
 
         100% {
             transform: rotate(360deg);
+        }
+    }
+}
+
+@mixin fill{
+    @keyframes fill {
+        from {
+            fill: white;
+        }
+    
+        to {
+            fill: var(--red);
+        }
+    }
+}
+
+@mixin cube-1{
+    @keyframes cube-1 {
+        from {
+            offset-distance: var(--fromto);
+            transform: scale(var(--scale));
+        }
+    
+        to {
+            offset-distance: var(--tofrom);
+        }
+    }
+}
+
+@mixin bouncefadein{
+    @keyframes bouncefadein {
+        0% {
+            transform: translateY(0);
+        }
+
+        20% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+}
+
+@mixin wiggle{
+    @keyframes wiggle {
+        30% {
+            transform: scale(var(--scale));
+        }
+    
+        40%,60% {
+            transform: rotate(var(--minusdeg)) scale(var(--scale));
+        }
+    
+        50% {
+            transform: rotate(var(--adddeg)) scale(var(--scale));
+        }
+
+        70% {
+            transform: rotate(var(--deg)) scale(var(--scale));
+        }
+    
+        100% {
+            transform: scale(var(--original));
+            font-style: italic;
+            font-weight: var(--weight);
         }
     }
 }
