@@ -1,0 +1,41 @@
+footer {
+    background: $secondary-color;
+}
+
+.footer {
+    @include content-wrap;
+    color: $primary-color;
+    text-align: center;
+
+    & a {
+        padding: 5px 0px;
+        color: $accent-color;
+
+        :hover {
+            padding: 5px 0px;
+            color: rgba($accent-color, 80%);
+        }
+
+        :active {
+            padding: 5px 0px;
+            color: rgba($accent-color, 30%);
+        }
+    }
+
+    & p {
+        font-family: $primary-font;
+        margin-bottom: 0;
+    }
+
+    &__contact-list ul {
+        margin-top: 0px;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    &__contact-list a {
+        margin-top: 0px;
+        list-style-type: none;
+        padding: 0;
+    }
+}
