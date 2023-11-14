@@ -8,9 +8,9 @@
 /* 6-2 Variables */
 
 :root {
-    --red: $accent-color;
-    --fade: rgba($accent-color, 80%);
-    --morefade: rgba($accent-color, 30%);
+    --red: #fd3f35;
+    --fade: rgba(253, 63, 53, 80%);
+    --morefade: rgba(253, 63, 53, 30%);
     --scale: 0.1;
     --fromto: 0%;
     --tofrom: 0%;
@@ -27,7 +27,7 @@
             --fromto: 0%;
             --tofrom: 100%;
             --scale: 0.8;
-            --red: rgba($accent-color, 80%);
+            --red: rgba(253, 63, 53, 80%);
             offset-path: path("M 10,100 A 50,10 0 1,1 0,0");
             animation: cube-1 var(--duration) 0s cubic-bezier(.62, .49, 0, 1.04) infinite, fill 1s both;
     }
@@ -35,7 +35,7 @@
             --fromto: 100%;
             --tofrom: 0%;
             --scale: 0.1;
-            --red: rgba($accent-color, 80%);
+            --red: rgba(253, 63, 53, 80%);
             offset-path: path("M 0,10 A 50,10 0 1,1 0,100");
             animation: cube-1 var(--duration) 0s cubic-bezier(.62, .49, 0, 1.04) infinite, fill 1s both;
         }
@@ -43,7 +43,7 @@
             --fromto: 100%;
             --tofrom: 0%;
             --scale: 0.6;
-            --red: rgba($accent-color, 80%);
+            --red: rgba(253, 63, 53, 80%);
             offset-path: path("M 0.50,0 A 150,10 0 1,1 0,40 ");
             animation: cube-1 var(--duration) 0s cubic-bezier(.62, .49, 0, 1.04) infinite, fill 1s both;
         }
