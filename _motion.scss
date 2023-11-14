@@ -1,4 +1,6 @@
-// Motion page 
+// 3-0 Motion page 
+
+// 3-1 Keyframes
 @include scaleInOut;
 @include move;
 @include typing;
@@ -17,7 +19,7 @@
             justify-content: center;
             height: 200px;
 
-            // 2-1 First cell
+            // 3-2 First cell
 
             &__btn{
                     font-family: "Roboto", sans-serif;
@@ -36,7 +38,7 @@
                         }
             }
 
-            // 2-2 Second cell
+            // 3-3 Second cell
 
             &__heading {
                 color: $accent-color;
@@ -47,7 +49,7 @@
                 animation-fill-mode: backwards;
             }
 
-            // 2-3 Third cell
+            // 3-4 Third cell
             
             &__img:hover {
                 animation-name: move;
@@ -58,7 +60,7 @@
                 animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
             }
 
-            // 2-4 Fourth cell
+            // 3-5 Fourth cell
 
             &__phrase {
                 font-style: normal;
@@ -68,7 +70,7 @@
                 letter-spacing: 0.3em;
             }
 
-            // 2-5 Fifth cell
+            // 3-6 Fifth cell
 
             &__3d {
                 margin: 0;
@@ -96,7 +98,7 @@
                 }
             }
 
-            // 2-6 Sixth cell
+            // 3-7 Sixth cell
 
             //5-4 The shape taken from: https://css-tricks.com/the-shapes-of-css/
 
