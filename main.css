@@ -268,11 +268,13 @@ footer {
 }
 
 /* 2-0 Home page */
+/* 2-0 Home page */
 .hero-section {
   max-width: 800px;
   width: 85%;
   margin: 0 auto;
   padding: 70px 0px;
+  /* 2-1 Profile */
 }
 .hero-section__profile-flex img {
   display: block;
@@ -282,6 +284,7 @@ footer {
 }
 .hero-section__profile-flex__section {
   margin: auto;
+  /* 6-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb */
 }
 .hero-section__profile-flex__section--btn {
   color: #fcfcfc;
@@ -307,6 +310,7 @@ footer {
   opacity: 0;
   transition: opacity 100ms ease-in;
   pointer-events: none;
+  /* 6-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form */
 }
 .hero-section__profile-flex__section__modalDialog h2 {
   margin-bottom: 20px;
@@ -367,6 +371,7 @@ footer {
   background-color: rgba(253, 63, 53, 0.8);
 }
 
+/* 2-2 Project */
 .projects {
   max-width: 800px;
   width: 85%;
@@ -411,6 +416,7 @@ footer {
   border-bottom: none;
 }
 
+/* 2-3 Work Experience */
 .work {
   background: rgba(253, 63, 53, 0.5);
 }
@@ -434,6 +440,7 @@ footer {
   border-bottom: none;
 }
 
+/* 2-4 Education */
 .education {
   color: #fcfcfc;
   background-image: url(placeholder-images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);

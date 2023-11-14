@@ -1,8 +1,8 @@
-// 2-0 Home page
+/* 2-0 Home page */
 
  .hero-section{
     @include content-wrap;
-    // 2-1 Profile
+    /* 2-1 Profile */
     &__profile-flex{
         & img {
         display: block;
@@ -28,7 +28,7 @@
                 background: rgba($accent-color, 30%);
                 }
             }
-            // 6-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb 
+            /* 6-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb */
             &__modalDialog{
                 position: fixed;
                 top: 0;
@@ -86,7 +86,7 @@
                             }
                     }
 
-                    // 6-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form
+                    /* 6-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form */
 
                     & input[type="text"],
                     & select {
@@ -118,7 +118,7 @@
         }
     }
 }
-// 2-2 Project
+/* 2-2 Project */
 
 .projects {
     @include content-wrap;
@@ -164,7 +164,7 @@
     }    
 }
 
-// 2-3 Work Experience
+/* 2-3 Work Experience */
 
 .work{
     background: rgba($accent-color, 50%);
@@ -180,7 +180,7 @@
 }
 }
 
-// 2-4 Education
+/* 2-4 Education */
 
 .education {
     color: $primary-color;
