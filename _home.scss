@@ -133,11 +133,11 @@
                 & a {
                     color: $accent-color;
                     
-                    :hover {
+                    &:hover {
                         color: rgba($accent-color, 80%);
                     }
                     
-                    :active {
+                    &:active {
                         color: rgba($accent-color, 30%);
                     }
                 }
