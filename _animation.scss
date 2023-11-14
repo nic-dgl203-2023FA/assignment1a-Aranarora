@@ -39,6 +39,14 @@
             offset-path: path("M 0,10 A 50,10 0 1,1 0,100");
             animation: cube-1 var(--duration) 0s cubic-bezier(.62, .49, 0, 1.04) infinite, fill 1s both;
         }
+    &__top {
+            --fromto: 100%;
+            --tofrom: 0%;
+            --scale: 0.6;
+            --red: rgba(253, 63, 53, 80%);
+            offset-path: path("M 0.50,0 A 150,10 0 1,1 0,40 ");
+            animation: cube-1 var(--duration) 0s cubic-bezier(.62, .49, 0, 1.04) infinite, fill 1s both;
+        }
 
 }
 
