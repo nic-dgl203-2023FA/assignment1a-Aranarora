@@ -4,6 +4,10 @@
 @include bouncefadein;
 @include wiggle;
 
+.hero-section {
+    @include content-wrap;
+}
+
 
 /* 6-2 Variables */
 

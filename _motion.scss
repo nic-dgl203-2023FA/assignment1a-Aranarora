@@ -7,6 +7,9 @@
 @include flipdown;
 @include rotation;
 
+.hero-section {
+    @include content-wrap;
+}
 .grid-container{
     &__item {
             display: flex;
