@@ -1,4 +1,55 @@
-/* 1-0 Home page */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #101214;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 75px;
+  line-height: 0.9;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 45px;
+  line-height: 1;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0;
+}
+
 .menu {
   position: fixed;
   display: flex;
@@ -115,6 +166,57 @@
   display: none;
 }
 
+header {
+  background: #101214;
+  color: #fcfcfc;
+}
+header h1,
+header h2 {
+  text-align: center;
+}
+header h2 {
+  color: #fd3f35;
+}
+
+footer {
+  background: #101214;
+}
+
+.footer {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 70px 0px;
+  color: #fcfcfc;
+  text-align: center;
+}
+.footer a {
+  padding: 5px 0px;
+  color: #fd3f35;
+}
+.footer a :hover {
+  padding: 5px 0px;
+  color: rgba(253, 63, 53, 0.8);
+}
+.footer a :active {
+  padding: 5px 0px;
+  color: rgba(253, 63, 53, 0.3);
+}
+.footer p {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0;
+}
+.footer__contact-list ul {
+  margin-top: 0px;
+  list-style-type: none;
+  padding: 0;
+}
+.footer__contact-list a {
+  margin-top: 0px;
+  list-style-type: none;
+  padding: 0;
+}
+
 .hero-section {
   max-width: 800px;
   width: 85%;
@@ -129,7 +231,6 @@
 }
 .hero-section__profile-flex__section {
   margin: auto;
-  /* 5-2 Add modal css from https://codepen.io/Lightislands/pen/XdYYgb */
 }
 .hero-section__profile-flex__section--btn {
   color: #fcfcfc;
@@ -155,7 +256,6 @@
   opacity: 0;
   transition: opacity 100ms ease-in;
   pointer-events: none;
-  /* 5-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form */
 }
 .hero-section__profile-flex__section__modalDialog h2 {
   margin-bottom: 20px;
@@ -216,8 +316,6 @@
   background-color: rgba(253, 63, 53, 0.8);
 }
 
-/* 1-3 Project
-----------------------------------*/
 .projects {
   max-width: 800px;
   width: 85%;
@@ -262,8 +360,6 @@
   border-bottom: none;
 }
 
-/* 1-4 Work Experience
-----------------------------------*/
 .work {
   background: rgba(253, 63, 53, 0.5);
 }
@@ -287,8 +383,6 @@
   border-bottom: none;
 }
 
-/* 1-5 Education
-------------------------------------*/
 .education {
   color: #fcfcfc;
   background-image: url(placeholder-images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
@@ -372,6 +466,13 @@
     transform: rotate(360deg);
   }
 }
+.hero-section {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 70px 0px;
+}
+
 .grid-container__item {
   display: flex;
   align-items: center;
@@ -463,7 +564,6 @@
   transform: rotate(60deg);
 }
 
-/* 6-1 Animation */
 @keyframes fill {
   from {
     fill: white;
@@ -513,7 +613,6 @@
     font-weight: var(--weight);
   }
 }
-/* 6-2 Variables */
 :root {
   --red: #fd3f35;
   --fade: rgba(253, 63, 53, 80%);
@@ -527,6 +626,13 @@
   --minusdeg: -20deg;
   --adddeg: 20deg;
   --deg: 0;
+}
+
+.hero-section {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 70px 0px;
 }
 
 #cube__right {
@@ -564,7 +670,6 @@
   animation: bouncefadein var(--duration) 0.6s cubic-bezier(0.36, 0.44, 0, 1.04) infinite, fill 1s both;
 }
 
-/* 6-7 Text animation */
 .animation-text {
   font-size: 50px;
   margin-top: 0%;
@@ -573,110 +678,6 @@
   text-align: center;
   animation: wiggle var(--duration) infinite linear;
   --scale: 1.2;
-}
-
-/* 1-1 Global styles
-----------------------------------*/
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-header {
-  background: #101214;
-  color: #fcfcfc;
-}
-header h1, header h2 {
-  text-align: center;
-}
-header h2 {
-  color: #fd3f35;
-}
-
-body {
-  color: #101214;
-  margin: 0%;
-  padding: 0%;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-a {
-  color: #fcfcfc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 75px;
-  line-height: 0.9;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 45px;
-  line-height: 1;
-}
-
-h1,
-h2 {
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  font-weight: 400;
-  margin: 0;
-}
-
-h3 {
-  font-family: "Playfair Display", serif;
-  margin-bottom: 0;
-}
-
-footer {
-  background: #101214;
-}
-
-.footer {
-  max-width: 800px;
-  width: 85%;
-  margin: 0 auto;
-  padding: 70px 0px;
-  color: #fcfcfc;
-  text-align: center;
-}
-.footer a {
-  padding: 5px 0px;
-  color: #fd3f35;
-}
-.footer a :hover {
-  padding: 5px 0px;
-  color: rgba(253, 63, 53, 0.8);
-}
-.footer a :active {
-  padding: 5px 0px;
-  color: rgba(253, 63, 53, 0.3);
-}
-.footer p {
-  font-family: "Playfair Display", serif;
-  margin-bottom: 0;
-}
-.footer__contact-list ul {
-  margin-top: 0px;
-  list-style-type: none;
-  padding: 0;
-}
-.footer__contact-list a {
-  margin-top: 0px;
-  list-style-type: none;
-  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
