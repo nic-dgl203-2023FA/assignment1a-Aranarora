@@ -378,6 +378,22 @@
   justify-content: center;
   height: 200px;
 }
+.grid-container__item__btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fcfcfc;
+  background: #fd3f35;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  transition: transform 0.5s 0.1s ease-in-out, background 0.4s 0.2s ease-out, border-radius 0.3s 0.3s ease-in;
+}
+.grid-container__item__btn:hover {
+  transform: scale(1.5);
+  background: rgba(253, 63, 53, 0.8);
+  border-radius: 8px;
+}
 
 /* 1-1 Global styles
 ----------------------------------*/
