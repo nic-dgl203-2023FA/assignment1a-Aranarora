@@ -417,6 +417,28 @@
   border-right: 0.1em solid #ce2d4f;
   letter-spacing: 0.3em;
 }
+.grid-container__item__3d {
+  margin: 0;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.grid-container__item__3d span {
+  display: inline-block;
+  animation: flipup 1s cubic-bezier(0.85, 1.2, 0.9, 1.8) both, flipdown 2s cubic-bezier(0.85, 1.2, 0.9, 1.8) 2s forwards;
+  transform-origin: 50% 100%;
+}
+.grid-container__item__3d span:nth-child(2) {
+  animation-delay: 0.2s, 2.2s;
+}
+.grid-container__item__3d span:nth-child(3) {
+  animation-delay: 0.4s, 2.4s;
+}
+.grid-container__item__3d span:nth-child(4) {
+  animation-delay: 0.6s, 2.6s;
+}
+.grid-container__item__3d span:nth-child(5) {
+  animation-delay: 0.8s, 2.8s;
+}
 
 /* 1-1 Global styles
 ----------------------------------*/
