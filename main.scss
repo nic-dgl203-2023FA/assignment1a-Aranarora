@@ -44,34 +44,34 @@ Help taken from external sources
 6-4 The shape taken from: https://css-tricks.com/the-shapes-of-css/
 */
 
-// 1-0 Configuration
+/* 1-0 Configuration */
  @import 'config';
-// 1-1 Global
+/* 1-1 Global */
  @import 'global';
-// 1-3 Navigation
+/* 1-3 Navigation */
  @import 'menu';
-// 1-3 Header
+/* 1-3 Header */
  @import 'header';
-// 1-3 Footer
+/* 1-3 Footer */
  @import 'footer';
 
-// 2-0 Home page
+/* 2-0 Home page */
  @import 'home';
-// 3-0 Motion page 
+/* 3-0 Motion page */
  @import 'motion';
-// 4-0 Animation 
+/* 4-0 Animation */
  @import 'animation';
 
 
 
-// 5-0 Responsive
+/* 5-0 Responsive */
  @media screen and (min-width: 768px) {
-    // 5-1 Global
+    /* 5-1 Global
     h1 {
     font-size: 100px;
     line-height: 1;
     }
-    // 5-2 Navigation
+    /* 5-2 Navigation */
     .menu {
         &__nav-list {
             position: relative;
@@ -102,7 +102,7 @@ Help taken from external sources
             display: none;
         }
     }
-    // 5-3 Footer
+    /* 5-3 Footer */
     .footer__contact-list {
         display: flex;
         justify-content: space-between;
@@ -112,7 +112,7 @@ Help taken from external sources
                 flex-direction: column;
             }
     }
-    // 5-2-0 Home Profile
+    /* 5-2-0 Home Profile */
     .hero-section__profile-flex {
         display: flex;
         padding-top: 25px;
@@ -122,21 +122,21 @@ Help taken from external sources
         }
     }
         
-    // 5-4-1 Home Projects
+    /* 5-4-1 Home Projects */
     .projects__wrap__item{
         img {
             float: left;
             margin-right: 20px;
         }
     }
-    // 5-4-2 Home Work 
+    /* 5-4-2 Home Work */
     .work__experience-wrap__job-item{
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 20px;
     }
 
-    // 5-5 Motion Grid
+    /* 5-5 Motion Grid */
     .grid-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

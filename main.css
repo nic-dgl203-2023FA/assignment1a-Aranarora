@@ -43,6 +43,8 @@ Help taken from external sources
 6-3 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form
 6-4 The shape taken from: https://css-tricks.com/the-shapes-of-css/
 */
+/* 1-0 Configuration */
+/* 1-1 Global */
 html {
   box-sizing: border-box;
 }
@@ -95,6 +97,7 @@ h3 {
   margin-bottom: 0;
 }
 
+/* 1-3 Navigation */
 .menu {
   position: fixed;
   display: flex;
@@ -211,6 +214,7 @@ h3 {
   display: none;
 }
 
+/* 1-3 Header */
 header {
   background: #101214;
   color: #fcfcfc;
@@ -223,6 +227,7 @@ header h2 {
   color: #fd3f35;
 }
 
+/* 1-3 Footer */
 footer {
   background: #101214;
 }
@@ -262,6 +267,7 @@ footer {
   padding: 0;
 }
 
+/* 2-0 Home page */
 .hero-section {
   max-width: 800px;
   width: 85%;
@@ -452,6 +458,7 @@ footer {
   margin: 0;
 }
 
+/* 3-0 Motion page */
 @keyframes scaleInOut {
   0% {
     transform: scale(1.5);
@@ -609,6 +616,7 @@ footer {
   transform: rotate(60deg);
 }
 
+/* 4-0 Animation */
 @keyframes fill {
   from {
     fill: white;
@@ -725,11 +733,14 @@ footer {
   --scale: 1.2;
 }
 
+/* 5-0 Responsive */
 @media screen and (min-width: 768px) {
+  /* 5-1 Global
   h1 {
-    font-size: 100px;
-    line-height: 1;
+  font-size: 100px;
+  line-height: 1;
   }
+  /* 5-2 Navigation */
   .menu__nav-list {
     position: relative;
     flex-direction: row;
@@ -757,6 +768,7 @@ footer {
   .menu__burger {
     display: none;
   }
+  /* 5-3 Footer */
   .footer__contact-list {
     display: flex;
     justify-content: space-between;
@@ -765,6 +777,7 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  /* 5-2-0 Home Profile */
   .hero-section__profile-flex {
     display: flex;
     padding-top: 25px;
@@ -772,16 +785,19 @@ footer {
   .hero-section__profile-flex img {
     margin-right: 20px;
   }
+  /* 5-4-1 Home Projects */
   .projects__wrap__item img {
     float: left;
     margin-right: 20px;
   }
+  /* 5-4-2 Home Work */
   .work__experience-wrap__job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
     -moz-column-gap: 20px;
          column-gap: 20px;
   }
+  /* 5-5 Motion Grid */
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
